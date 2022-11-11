@@ -1,0 +1,834 @@
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+==> Building model..
+[INFO] Epoch-1-Batch-100: Train: Loss-3.0230, Accuracy-0.1953
+[INFO] Epoch-1-Batch-200: Train: Loss-2.3460, Accuracy-0.2186
+[INFO] Epoch-1-Batch-300: Train: Loss-2.0165, Accuracy-0.2376
+[INFO] Epoch-1-Batch-400: Train: Loss-2.2161, Accuracy-0.2493
+[INFO] Epoch-1-Batch-500: Train: Loss-2.1159, Accuracy-0.2544
+[INFO] Epoch-1-Batch-600: Train: Loss-1.6689, Accuracy-0.2662
+[INFO] Epoch-1-Batch-700: Train: Loss-2.2205, Accuracy-0.2758
+[INFO] Epoch-1-Batch-800: Train: Loss-1.6409, Accuracy-0.2850
+[INFO] Epoch-1-Batch-900: Train: Loss-2.1038, Accuracy-0.2927
+[INFO] Epoch-1-Batch-1000: Train: Loss-1.7992, Accuracy-0.3003
+[INFO] Epoch-1-Batch-1100: Train: Loss-1.4033, Accuracy-0.3068
+[INFO] Epoch-1-Batch-1200: Train: Loss-1.9089, Accuracy-0.3132
+[INFO] Epoch-1-Batch-1300: Train: Loss-1.7962, Accuracy-0.3191
+[INFO] Epoch-1-Batch-1400: Train: Loss-1.3477, Accuracy-0.3238
+[INFO] Epoch-1-Batch-1500: Train: Loss-1.6526, Accuracy-0.3272
+[INFO] Epoch-1-Test Accurancy: 0.410
+Saving..
+[INFO] Epoch-2-Batch-100: Train: Loss-1.6844, Accuracy-0.4228
+[INFO] Epoch-2-Batch-200: Train: Loss-1.5560, Accuracy-0.4283
+[INFO] Epoch-2-Batch-300: Train: Loss-1.3613, Accuracy-0.4324
+[INFO] Epoch-2-Batch-400: Train: Loss-1.4942, Accuracy-0.4395
+[INFO] Epoch-2-Batch-500: Train: Loss-1.4096, Accuracy-0.4427
+[INFO] Epoch-2-Batch-600: Train: Loss-1.5885, Accuracy-0.4447
+[INFO] Epoch-2-Batch-700: Train: Loss-1.6124, Accuracy-0.4492
+[INFO] Epoch-2-Batch-800: Train: Loss-1.5479, Accuracy-0.4493
+[INFO] Epoch-2-Batch-900: Train: Loss-1.2991, Accuracy-0.4514
+[INFO] Epoch-2-Batch-1000: Train: Loss-1.4966, Accuracy-0.4545
+[INFO] Epoch-2-Batch-1100: Train: Loss-1.1175, Accuracy-0.4587
+[INFO] Epoch-2-Batch-1200: Train: Loss-1.3376, Accuracy-0.4607
+[INFO] Epoch-2-Batch-1300: Train: Loss-1.3579, Accuracy-0.4640
+[INFO] Epoch-2-Batch-1400: Train: Loss-1.4801, Accuracy-0.4669
+[INFO] Epoch-2-Batch-1500: Train: Loss-1.6269, Accuracy-0.4693
+[INFO] Epoch-2-Test Accurancy: 0.550
+Saving..
+[INFO] Epoch-3-Batch-100: Train: Loss-1.1746, Accuracy-0.5175
+[INFO] Epoch-3-Batch-200: Train: Loss-1.2655, Accuracy-0.5283
+[INFO] Epoch-3-Batch-300: Train: Loss-1.4038, Accuracy-0.5231
+[INFO] Epoch-3-Batch-400: Train: Loss-1.3450, Accuracy-0.5206
+[INFO] Epoch-3-Batch-500: Train: Loss-1.3177, Accuracy-0.5270
+[INFO] Epoch-3-Batch-600: Train: Loss-1.1242, Accuracy-0.5303
+[INFO] Epoch-3-Batch-700: Train: Loss-0.9711, Accuracy-0.5336
+[INFO] Epoch-3-Batch-800: Train: Loss-1.3587, Accuracy-0.5355
+[INFO] Epoch-3-Batch-900: Train: Loss-1.2051, Accuracy-0.5363
+[INFO] Epoch-3-Batch-1000: Train: Loss-0.9522, Accuracy-0.5377
+[INFO] Epoch-3-Batch-1100: Train: Loss-0.8237, Accuracy-0.5390
+[INFO] Epoch-3-Batch-1200: Train: Loss-1.1183, Accuracy-0.5416
+[INFO] Epoch-3-Batch-1300: Train: Loss-1.2784, Accuracy-0.5430
+[INFO] Epoch-3-Batch-1400: Train: Loss-1.2604, Accuracy-0.5445
+[INFO] Epoch-3-Batch-1500: Train: Loss-1.1191, Accuracy-0.5463
+[INFO] Epoch-3-Test Accurancy: 0.592
+Saving..
+[INFO] Epoch-4-Batch-100: Train: Loss-1.0262, Accuracy-0.5722
+[INFO] Epoch-4-Batch-200: Train: Loss-1.2220, Accuracy-0.5808
+[INFO] Epoch-4-Batch-300: Train: Loss-1.3675, Accuracy-0.5795
+[INFO] Epoch-4-Batch-400: Train: Loss-1.2478, Accuracy-0.5785
+[INFO] Epoch-4-Batch-500: Train: Loss-1.0283, Accuracy-0.5801
+[INFO] Epoch-4-Batch-600: Train: Loss-1.3375, Accuracy-0.5806
+[INFO] Epoch-4-Batch-700: Train: Loss-0.9430, Accuracy-0.5825
+[INFO] Epoch-4-Batch-800: Train: Loss-1.3694, Accuracy-0.5852
+[INFO] Epoch-4-Batch-900: Train: Loss-1.1130, Accuracy-0.5890
+[INFO] Epoch-4-Batch-1000: Train: Loss-1.0833, Accuracy-0.5890
+[INFO] Epoch-4-Batch-1100: Train: Loss-0.7424, Accuracy-0.5906
+[INFO] Epoch-4-Batch-1200: Train: Loss-1.0099, Accuracy-0.5929
+[INFO] Epoch-4-Batch-1300: Train: Loss-1.5592, Accuracy-0.5951
+[INFO] Epoch-4-Batch-1400: Train: Loss-0.7458, Accuracy-0.5974
+[INFO] Epoch-4-Batch-1500: Train: Loss-1.4073, Accuracy-0.5990
+[INFO] Epoch-4-Test Accurancy: 0.644
+Saving..
+[INFO] Epoch-5-Batch-100: Train: Loss-0.7762, Accuracy-0.6278
+[INFO] Epoch-5-Batch-200: Train: Loss-0.9031, Accuracy-0.6259
+[INFO] Epoch-5-Batch-300: Train: Loss-0.8496, Accuracy-0.6233
+[INFO] Epoch-5-Batch-400: Train: Loss-1.1966, Accuracy-0.6257
+[INFO] Epoch-5-Batch-500: Train: Loss-1.3757, Accuracy-0.6268
+[INFO] Epoch-5-Batch-600: Train: Loss-0.9935, Accuracy-0.6278
+[INFO] Epoch-5-Batch-700: Train: Loss-0.8096, Accuracy-0.6289
+[INFO] Epoch-5-Batch-800: Train: Loss-0.6235, Accuracy-0.6329
+[INFO] Epoch-5-Batch-900: Train: Loss-1.1937, Accuracy-0.6346
+[INFO] Epoch-5-Batch-1000: Train: Loss-0.9455, Accuracy-0.6358
+[INFO] Epoch-5-Batch-1100: Train: Loss-1.2145, Accuracy-0.6365
+[INFO] Epoch-5-Batch-1200: Train: Loss-0.7253, Accuracy-0.6390
+[INFO] Epoch-5-Batch-1300: Train: Loss-1.0564, Accuracy-0.6396
+[INFO] Epoch-5-Batch-1400: Train: Loss-0.8556, Accuracy-0.6401
+[INFO] Epoch-5-Batch-1500: Train: Loss-1.2558, Accuracy-0.6417
+[INFO] Epoch-5-Test Accurancy: 0.695
+Saving..
+[INFO] Epoch-6-Batch-100: Train: Loss-0.8029, Accuracy-0.6625
+[INFO] Epoch-6-Batch-200: Train: Loss-0.9554, Accuracy-0.6605
+[INFO] Epoch-6-Batch-300: Train: Loss-1.1339, Accuracy-0.6669
+[INFO] Epoch-6-Batch-400: Train: Loss-0.6440, Accuracy-0.6652
+[INFO] Epoch-6-Batch-500: Train: Loss-0.9255, Accuracy-0.6660
+[INFO] Epoch-6-Batch-600: Train: Loss-0.5701, Accuracy-0.6661
+[INFO] Epoch-6-Batch-700: Train: Loss-1.0355, Accuracy-0.6671
+[INFO] Epoch-6-Batch-800: Train: Loss-0.8487, Accuracy-0.6686
+[INFO] Epoch-6-Batch-900: Train: Loss-0.6926, Accuracy-0.6711
+[INFO] Epoch-6-Batch-1000: Train: Loss-1.1707, Accuracy-0.6714
+[INFO] Epoch-6-Batch-1100: Train: Loss-1.2814, Accuracy-0.6711
+[INFO] Epoch-6-Batch-1200: Train: Loss-0.7985, Accuracy-0.6709
+[INFO] Epoch-6-Batch-1300: Train: Loss-0.5749, Accuracy-0.6713
+[INFO] Epoch-6-Batch-1400: Train: Loss-1.1407, Accuracy-0.6726
+[INFO] Epoch-6-Batch-1500: Train: Loss-1.0027, Accuracy-0.6724
+[INFO] Epoch-6-Test Accurancy: 0.690
+[INFO] Epoch-7-Batch-100: Train: Loss-0.8812, Accuracy-0.6831
+[INFO] Epoch-7-Batch-200: Train: Loss-0.7996, Accuracy-0.6836
+[INFO] Epoch-7-Batch-300: Train: Loss-0.6060, Accuracy-0.6896
+[INFO] Epoch-7-Batch-400: Train: Loss-0.9946, Accuracy-0.6875
+[INFO] Epoch-7-Batch-500: Train: Loss-1.0131, Accuracy-0.6890
+[INFO] Epoch-7-Batch-600: Train: Loss-0.9633, Accuracy-0.6898
+[INFO] Epoch-7-Batch-700: Train: Loss-0.7396, Accuracy-0.6924
+[INFO] Epoch-7-Batch-800: Train: Loss-0.9492, Accuracy-0.6907
+[INFO] Epoch-7-Batch-900: Train: Loss-0.4974, Accuracy-0.6903
+[INFO] Epoch-7-Batch-1000: Train: Loss-0.8190, Accuracy-0.6921
+[INFO] Epoch-7-Batch-1100: Train: Loss-0.5162, Accuracy-0.6936
+[INFO] Epoch-7-Batch-1200: Train: Loss-1.0762, Accuracy-0.6940
+[INFO] Epoch-7-Batch-1300: Train: Loss-1.0604, Accuracy-0.6948
+[INFO] Epoch-7-Batch-1400: Train: Loss-0.7532, Accuracy-0.6963
+[INFO] Epoch-7-Batch-1500: Train: Loss-0.8388, Accuracy-0.6968
+[INFO] Epoch-7-Test Accurancy: 0.711
+Saving..
+[INFO] Epoch-8-Batch-100: Train: Loss-1.0829, Accuracy-0.7128
+[INFO] Epoch-8-Batch-200: Train: Loss-0.8929, Accuracy-0.7050
+[INFO] Epoch-8-Batch-300: Train: Loss-0.8868, Accuracy-0.7066
+[INFO] Epoch-8-Batch-400: Train: Loss-0.5764, Accuracy-0.7075
+[INFO] Epoch-8-Batch-500: Train: Loss-0.8765, Accuracy-0.7053
+[INFO] Epoch-8-Batch-600: Train: Loss-0.5154, Accuracy-0.7073
+[INFO] Epoch-8-Batch-700: Train: Loss-0.8409, Accuracy-0.7069
+[INFO] Epoch-8-Batch-800: Train: Loss-0.6506, Accuracy-0.7078
+[INFO] Epoch-8-Batch-900: Train: Loss-0.7624, Accuracy-0.7091
+[INFO] Epoch-8-Batch-1000: Train: Loss-0.7316, Accuracy-0.7107
+[INFO] Epoch-8-Batch-1100: Train: Loss-1.0358, Accuracy-0.7108
+[INFO] Epoch-8-Batch-1200: Train: Loss-0.8079, Accuracy-0.7107
+[INFO] Epoch-8-Batch-1300: Train: Loss-0.7989, Accuracy-0.7122
+[INFO] Epoch-8-Batch-1400: Train: Loss-0.6338, Accuracy-0.7126
+[INFO] Epoch-8-Batch-1500: Train: Loss-0.9879, Accuracy-0.7135
+[INFO] Epoch-8-Test Accurancy: 0.715
+Saving..
+[INFO] Epoch-9-Batch-100: Train: Loss-0.7548, Accuracy-0.7137
+[INFO] Epoch-9-Batch-200: Train: Loss-0.7119, Accuracy-0.7208
+[INFO] Epoch-9-Batch-300: Train: Loss-0.7448, Accuracy-0.7265
+[INFO] Epoch-9-Batch-400: Train: Loss-0.5623, Accuracy-0.7292
+[INFO] Epoch-9-Batch-500: Train: Loss-0.9944, Accuracy-0.7307
+[INFO] Epoch-9-Batch-600: Train: Loss-0.7708, Accuracy-0.7303
+[INFO] Epoch-9-Batch-700: Train: Loss-0.8487, Accuracy-0.7295
+[INFO] Epoch-9-Batch-800: Train: Loss-0.7780, Accuracy-0.7279
+[INFO] Epoch-9-Batch-900: Train: Loss-0.7278, Accuracy-0.7276
+[INFO] Epoch-9-Batch-1000: Train: Loss-0.9443, Accuracy-0.7274
+[INFO] Epoch-9-Batch-1100: Train: Loss-1.0068, Accuracy-0.7263
+[INFO] Epoch-9-Batch-1200: Train: Loss-0.6783, Accuracy-0.7259
+[INFO] Epoch-9-Batch-1300: Train: Loss-0.5895, Accuracy-0.7274
+[INFO] Epoch-9-Batch-1400: Train: Loss-0.7042, Accuracy-0.7278
+[INFO] Epoch-9-Batch-1500: Train: Loss-0.3731, Accuracy-0.7280
+[INFO] Epoch-9-Test Accurancy: 0.751
+Saving..
+[INFO] Epoch-10-Batch-100: Train: Loss-0.8715, Accuracy-0.7403
+[INFO] Epoch-10-Batch-200: Train: Loss-1.1027, Accuracy-0.7453
+[INFO] Epoch-10-Batch-300: Train: Loss-0.5267, Accuracy-0.7400
+[INFO] Epoch-10-Batch-400: Train: Loss-0.7391, Accuracy-0.7411
+[INFO] Epoch-10-Batch-500: Train: Loss-0.5681, Accuracy-0.7422
+[INFO] Epoch-10-Batch-600: Train: Loss-0.7812, Accuracy-0.7412
+[INFO] Epoch-10-Batch-700: Train: Loss-1.1420, Accuracy-0.7408
+[INFO] Epoch-10-Batch-800: Train: Loss-1.0693, Accuracy-0.7391
+[INFO] Epoch-10-Batch-900: Train: Loss-0.7007, Accuracy-0.7401
+[INFO] Epoch-10-Batch-1000: Train: Loss-0.7037, Accuracy-0.7410
+[INFO] Epoch-10-Batch-1100: Train: Loss-0.8620, Accuracy-0.7399
+[INFO] Epoch-10-Batch-1200: Train: Loss-0.8662, Accuracy-0.7399
+[INFO] Epoch-10-Batch-1300: Train: Loss-0.6409, Accuracy-0.7397
+[INFO] Epoch-10-Batch-1400: Train: Loss-1.0470, Accuracy-0.7401
+[INFO] Epoch-10-Batch-1500: Train: Loss-0.7824, Accuracy-0.7400
+[INFO] Epoch-10-Test Accurancy: 0.736
+[INFO] Epoch-11-Batch-100: Train: Loss-0.8416, Accuracy-0.7416
+[INFO] Epoch-11-Batch-200: Train: Loss-1.1257, Accuracy-0.7467
+[INFO] Epoch-11-Batch-300: Train: Loss-0.8899, Accuracy-0.7490
+[INFO] Epoch-11-Batch-400: Train: Loss-0.8545, Accuracy-0.7504
+[INFO] Epoch-11-Batch-500: Train: Loss-0.7589, Accuracy-0.7506
+[INFO] Epoch-11-Batch-600: Train: Loss-0.4193, Accuracy-0.7507
+[INFO] Epoch-11-Batch-700: Train: Loss-0.7243, Accuracy-0.7512
+[INFO] Epoch-11-Batch-800: Train: Loss-0.4577, Accuracy-0.7501
+[INFO] Epoch-11-Batch-900: Train: Loss-0.8742, Accuracy-0.7510
+[INFO] Epoch-11-Batch-1000: Train: Loss-0.6306, Accuracy-0.7513
+[INFO] Epoch-11-Batch-1100: Train: Loss-0.6101, Accuracy-0.7520
+[INFO] Epoch-11-Batch-1200: Train: Loss-1.0050, Accuracy-0.7527
+[INFO] Epoch-11-Batch-1300: Train: Loss-0.3150, Accuracy-0.7523
+[INFO] Epoch-11-Batch-1400: Train: Loss-1.0166, Accuracy-0.7531
+[INFO] Epoch-11-Batch-1500: Train: Loss-0.7402, Accuracy-0.7534
+[INFO] Epoch-11-Test Accurancy: 0.763
+Saving..
+[INFO] Epoch-12-Batch-100: Train: Loss-0.6930, Accuracy-0.7572
+[INFO] Epoch-12-Batch-200: Train: Loss-1.0857, Accuracy-0.7598
+[INFO] Epoch-12-Batch-300: Train: Loss-1.1279, Accuracy-0.7647
+[INFO] Epoch-12-Batch-400: Train: Loss-0.3732, Accuracy-0.7625
+[INFO] Epoch-12-Batch-500: Train: Loss-0.8036, Accuracy-0.7644
+[INFO] Epoch-12-Batch-600: Train: Loss-0.4945, Accuracy-0.7665
+[INFO] Epoch-12-Batch-700: Train: Loss-0.6225, Accuracy-0.7669
+[INFO] Epoch-12-Batch-800: Train: Loss-0.8211, Accuracy-0.7650
+[INFO] Epoch-12-Batch-900: Train: Loss-1.0245, Accuracy-0.7652
+[INFO] Epoch-12-Batch-1000: Train: Loss-0.7551, Accuracy-0.7652
+[INFO] Epoch-12-Batch-1100: Train: Loss-0.5283, Accuracy-0.7654
+[INFO] Epoch-12-Batch-1200: Train: Loss-0.8022, Accuracy-0.7642
+[INFO] Epoch-12-Batch-1300: Train: Loss-0.7237, Accuracy-0.7642
+[INFO] Epoch-12-Batch-1400: Train: Loss-0.8140, Accuracy-0.7644
+[INFO] Epoch-12-Batch-1500: Train: Loss-0.5423, Accuracy-0.7648
+[INFO] Epoch-12-Test Accurancy: 0.756
+[INFO] Epoch-13-Batch-100: Train: Loss-0.8693, Accuracy-0.7575
+[INFO] Epoch-13-Batch-200: Train: Loss-0.3033, Accuracy-0.7670
+[INFO] Epoch-13-Batch-300: Train: Loss-0.7192, Accuracy-0.7646
+[INFO] Epoch-13-Batch-400: Train: Loss-1.2548, Accuracy-0.7705
+[INFO] Epoch-13-Batch-500: Train: Loss-0.6416, Accuracy-0.7716
+[INFO] Epoch-13-Batch-600: Train: Loss-0.5725, Accuracy-0.7721
+[INFO] Epoch-13-Batch-700: Train: Loss-0.6173, Accuracy-0.7723
+[INFO] Epoch-13-Batch-800: Train: Loss-0.3652, Accuracy-0.7736
+[INFO] Epoch-13-Batch-900: Train: Loss-0.4966, Accuracy-0.7745
+[INFO] Epoch-13-Batch-1000: Train: Loss-0.5918, Accuracy-0.7742
+[INFO] Epoch-13-Batch-1100: Train: Loss-0.6427, Accuracy-0.7747
+[INFO] Epoch-13-Batch-1200: Train: Loss-0.4188, Accuracy-0.7748
+[INFO] Epoch-13-Batch-1300: Train: Loss-0.7053, Accuracy-0.7755
+[INFO] Epoch-13-Batch-1400: Train: Loss-0.3468, Accuracy-0.7749
+[INFO] Epoch-13-Batch-1500: Train: Loss-0.7488, Accuracy-0.7743
+[INFO] Epoch-13-Test Accurancy: 0.793
+Saving..
+[INFO] Epoch-14-Batch-100: Train: Loss-0.5371, Accuracy-0.7887
+[INFO] Epoch-14-Batch-200: Train: Loss-0.4973, Accuracy-0.7873
+[INFO] Epoch-14-Batch-300: Train: Loss-0.8529, Accuracy-0.7844
+[INFO] Epoch-14-Batch-400: Train: Loss-0.9125, Accuracy-0.7837
+[INFO] Epoch-14-Batch-500: Train: Loss-0.6191, Accuracy-0.7823
+[INFO] Epoch-14-Batch-600: Train: Loss-0.7748, Accuracy-0.7804
+[INFO] Epoch-14-Batch-700: Train: Loss-0.6198, Accuracy-0.7803
+[INFO] Epoch-14-Batch-800: Train: Loss-0.3590, Accuracy-0.7800
+[INFO] Epoch-14-Batch-900: Train: Loss-0.5559, Accuracy-0.7801
+[INFO] Epoch-14-Batch-1000: Train: Loss-0.4205, Accuracy-0.7796
+[INFO] Epoch-14-Batch-1100: Train: Loss-0.7074, Accuracy-0.7805
+[INFO] Epoch-14-Batch-1200: Train: Loss-0.6128, Accuracy-0.7793
+[INFO] Epoch-14-Batch-1300: Train: Loss-0.3886, Accuracy-0.7793
+[INFO] Epoch-14-Batch-1400: Train: Loss-0.8241, Accuracy-0.7786
+[INFO] Epoch-14-Batch-1500: Train: Loss-0.8086, Accuracy-0.7790
+[INFO] Epoch-14-Test Accurancy: 0.781
+[INFO] Epoch-15-Batch-100: Train: Loss-0.6556, Accuracy-0.7881
+[INFO] Epoch-15-Batch-200: Train: Loss-0.4201, Accuracy-0.7931
+[INFO] Epoch-15-Batch-300: Train: Loss-0.7584, Accuracy-0.7966
+[INFO] Epoch-15-Batch-400: Train: Loss-0.8389, Accuracy-0.7947
+[INFO] Epoch-15-Batch-500: Train: Loss-0.4593, Accuracy-0.7937
+[INFO] Epoch-15-Batch-600: Train: Loss-0.4294, Accuracy-0.7937
+[INFO] Epoch-15-Batch-700: Train: Loss-0.7045, Accuracy-0.7930
+[INFO] Epoch-15-Batch-800: Train: Loss-0.7926, Accuracy-0.7933
+[INFO] Epoch-15-Batch-900: Train: Loss-0.6654, Accuracy-0.7908
+[INFO] Epoch-15-Batch-1000: Train: Loss-0.3224, Accuracy-0.7902
+[INFO] Epoch-15-Batch-1100: Train: Loss-0.3574, Accuracy-0.7899
+[INFO] Epoch-15-Batch-1200: Train: Loss-0.5391, Accuracy-0.7893
+[INFO] Epoch-15-Batch-1300: Train: Loss-0.7104, Accuracy-0.7891
+[INFO] Epoch-15-Batch-1400: Train: Loss-0.8044, Accuracy-0.7895
+[INFO] Epoch-15-Batch-1500: Train: Loss-0.5916, Accuracy-0.7900
+[INFO] Epoch-15-Test Accurancy: 0.793
+[INFO] Epoch-16-Batch-100: Train: Loss-0.4949, Accuracy-0.8150
+[INFO] Epoch-16-Batch-200: Train: Loss-0.4074, Accuracy-0.8081
+[INFO] Epoch-16-Batch-300: Train: Loss-0.7127, Accuracy-0.8019
+[INFO] Epoch-16-Batch-400: Train: Loss-0.4442, Accuracy-0.8053
+[INFO] Epoch-16-Batch-500: Train: Loss-0.4421, Accuracy-0.8039
+[INFO] Epoch-16-Batch-600: Train: Loss-0.4105, Accuracy-0.8026
+[INFO] Epoch-16-Batch-700: Train: Loss-0.5807, Accuracy-0.8012
+[INFO] Epoch-16-Batch-800: Train: Loss-0.5449, Accuracy-0.8010
+[INFO] Epoch-16-Batch-900: Train: Loss-0.6271, Accuracy-0.8001
+[INFO] Epoch-16-Batch-1000: Train: Loss-0.8648, Accuracy-0.8001
+[INFO] Epoch-16-Batch-1100: Train: Loss-0.4418, Accuracy-0.7998
+[INFO] Epoch-16-Batch-1200: Train: Loss-0.4382, Accuracy-0.7991
+[INFO] Epoch-16-Batch-1300: Train: Loss-0.7962, Accuracy-0.7986
+[INFO] Epoch-16-Batch-1400: Train: Loss-0.6874, Accuracy-0.7981
+[INFO] Epoch-16-Batch-1500: Train: Loss-0.7662, Accuracy-0.7976
+[INFO] Epoch-16-Test Accurancy: 0.796
+Saving..
+[INFO] Epoch-17-Batch-100: Train: Loss-0.9305, Accuracy-0.8109
+[INFO] Epoch-17-Batch-200: Train: Loss-0.6377, Accuracy-0.8087
+[INFO] Epoch-17-Batch-300: Train: Loss-0.5928, Accuracy-0.8100
+[INFO] Epoch-17-Batch-400: Train: Loss-0.5499, Accuracy-0.8104
+[INFO] Epoch-17-Batch-500: Train: Loss-0.4177, Accuracy-0.8073
+[INFO] Epoch-17-Batch-600: Train: Loss-0.3417, Accuracy-0.8058
+[INFO] Epoch-17-Batch-700: Train: Loss-0.2598, Accuracy-0.8035
+[INFO] Epoch-17-Batch-800: Train: Loss-0.6716, Accuracy-0.8023
+[INFO] Epoch-17-Batch-900: Train: Loss-0.3415, Accuracy-0.8020
+[INFO] Epoch-17-Batch-1000: Train: Loss-0.8862, Accuracy-0.8026
+[INFO] Epoch-17-Batch-1100: Train: Loss-0.2861, Accuracy-0.8013
+[INFO] Epoch-17-Batch-1200: Train: Loss-0.3047, Accuracy-0.8007
+[INFO] Epoch-17-Batch-1300: Train: Loss-0.5749, Accuracy-0.8012
+[INFO] Epoch-17-Batch-1400: Train: Loss-0.6802, Accuracy-0.8010
+[INFO] Epoch-17-Batch-1500: Train: Loss-0.6633, Accuracy-0.8007
+[INFO] Epoch-17-Test Accurancy: 0.798
+Saving..
+[INFO] Epoch-18-Batch-100: Train: Loss-0.2805, Accuracy-0.8025
+[INFO] Epoch-18-Batch-200: Train: Loss-0.3264, Accuracy-0.8058
+[INFO] Epoch-18-Batch-300: Train: Loss-0.6672, Accuracy-0.8072
+[INFO] Epoch-18-Batch-400: Train: Loss-0.6264, Accuracy-0.8089
+[INFO] Epoch-18-Batch-500: Train: Loss-0.3733, Accuracy-0.8079
+[INFO] Epoch-18-Batch-600: Train: Loss-0.4002, Accuracy-0.8082
+[INFO] Epoch-18-Batch-700: Train: Loss-0.3622, Accuracy-0.8082
+[INFO] Epoch-18-Batch-800: Train: Loss-0.2984, Accuracy-0.8086
+[INFO] Epoch-18-Batch-900: Train: Loss-0.5594, Accuracy-0.8087
+[INFO] Epoch-18-Batch-1000: Train: Loss-1.0229, Accuracy-0.8083
+[INFO] Epoch-18-Batch-1100: Train: Loss-0.2769, Accuracy-0.8078
+[INFO] Epoch-18-Batch-1200: Train: Loss-0.5589, Accuracy-0.8075
+[INFO] Epoch-18-Batch-1300: Train: Loss-0.4082, Accuracy-0.8079
+[INFO] Epoch-18-Batch-1400: Train: Loss-0.6351, Accuracy-0.8074
+[INFO] Epoch-18-Batch-1500: Train: Loss-0.4517, Accuracy-0.8068
+[INFO] Epoch-18-Test Accurancy: 0.787
+[INFO] Epoch-19-Batch-100: Train: Loss-0.7419, Accuracy-0.8169
+[INFO] Epoch-19-Batch-200: Train: Loss-0.5052, Accuracy-0.8191
+[INFO] Epoch-19-Batch-300: Train: Loss-0.4139, Accuracy-0.8191
+[INFO] Epoch-19-Batch-400: Train: Loss-0.4458, Accuracy-0.8170
+[INFO] Epoch-19-Batch-500: Train: Loss-0.6692, Accuracy-0.8156
+[INFO] Epoch-19-Batch-600: Train: Loss-0.4872, Accuracy-0.8152
+[INFO] Epoch-19-Batch-700: Train: Loss-0.5728, Accuracy-0.8171
+[INFO] Epoch-19-Batch-800: Train: Loss-0.5679, Accuracy-0.8157
+[INFO] Epoch-19-Batch-900: Train: Loss-0.1847, Accuracy-0.8165
+[INFO] Epoch-19-Batch-1000: Train: Loss-0.8206, Accuracy-0.8141
+[INFO] Epoch-19-Batch-1100: Train: Loss-0.7962, Accuracy-0.8144
+[INFO] Epoch-19-Batch-1200: Train: Loss-0.6848, Accuracy-0.8140
+[INFO] Epoch-19-Batch-1300: Train: Loss-0.2969, Accuracy-0.8143
+[INFO] Epoch-19-Batch-1400: Train: Loss-0.4967, Accuracy-0.8146
+[INFO] Epoch-19-Batch-1500: Train: Loss-0.5444, Accuracy-0.8145
+[INFO] Epoch-19-Test Accurancy: 0.799
+Saving..
+[INFO] Epoch-20-Batch-100: Train: Loss-0.5213, Accuracy-0.8253
+[INFO] Epoch-20-Batch-200: Train: Loss-0.7265, Accuracy-0.8234
+[INFO] Epoch-20-Batch-300: Train: Loss-0.5101, Accuracy-0.8260
+[INFO] Epoch-20-Batch-400: Train: Loss-0.4322, Accuracy-0.8260
+[INFO] Epoch-20-Batch-500: Train: Loss-0.4926, Accuracy-0.8246
+[INFO] Epoch-20-Batch-600: Train: Loss-0.4710, Accuracy-0.8234
+[INFO] Epoch-20-Batch-700: Train: Loss-0.4618, Accuracy-0.8232
+[INFO] Epoch-20-Batch-800: Train: Loss-0.8603, Accuracy-0.8222
+[INFO] Epoch-20-Batch-900: Train: Loss-0.6780, Accuracy-0.8213
+[INFO] Epoch-20-Batch-1000: Train: Loss-0.5755, Accuracy-0.8197
+[INFO] Epoch-20-Batch-1100: Train: Loss-0.4308, Accuracy-0.8208
+[INFO] Epoch-20-Batch-1200: Train: Loss-0.4860, Accuracy-0.8199
+[INFO] Epoch-20-Batch-1300: Train: Loss-0.4080, Accuracy-0.8205
+[INFO] Epoch-20-Batch-1400: Train: Loss-0.5155, Accuracy-0.8201
+[INFO] Epoch-20-Batch-1500: Train: Loss-0.6719, Accuracy-0.8199
+[INFO] Epoch-20-Test Accurancy: 0.799
+Saving..
+[INFO] Epoch-21-Batch-100: Train: Loss-0.5462, Accuracy-0.8334
+[INFO] Epoch-21-Batch-200: Train: Loss-0.3250, Accuracy-0.8369
+[INFO] Epoch-21-Batch-300: Train: Loss-0.2820, Accuracy-0.8296
+[INFO] Epoch-21-Batch-400: Train: Loss-0.4119, Accuracy-0.8277
+[INFO] Epoch-21-Batch-500: Train: Loss-0.4231, Accuracy-0.8293
+[INFO] Epoch-21-Batch-600: Train: Loss-0.8605, Accuracy-0.8270
+[INFO] Epoch-21-Batch-700: Train: Loss-0.4084, Accuracy-0.8266
+[INFO] Epoch-21-Batch-800: Train: Loss-0.4783, Accuracy-0.8246
+[INFO] Epoch-21-Batch-900: Train: Loss-0.5751, Accuracy-0.8242
+[INFO] Epoch-21-Batch-1000: Train: Loss-0.3888, Accuracy-0.8236
+[INFO] Epoch-21-Batch-1100: Train: Loss-0.7193, Accuracy-0.8238
+[INFO] Epoch-21-Batch-1200: Train: Loss-0.3466, Accuracy-0.8239
+[INFO] Epoch-21-Batch-1300: Train: Loss-0.4523, Accuracy-0.8240
+[INFO] Epoch-21-Batch-1400: Train: Loss-0.8378, Accuracy-0.8240
+[INFO] Epoch-21-Batch-1500: Train: Loss-0.3031, Accuracy-0.8243
+[INFO] Epoch-21-Test Accurancy: 0.807
+Saving..
+[INFO] Epoch-22-Batch-100: Train: Loss-0.3002, Accuracy-0.8366
+[INFO] Epoch-22-Batch-200: Train: Loss-0.4850, Accuracy-0.8325
+[INFO] Epoch-22-Batch-300: Train: Loss-0.9260, Accuracy-0.8284
+[INFO] Epoch-22-Batch-400: Train: Loss-0.4967, Accuracy-0.8286
+[INFO] Epoch-22-Batch-500: Train: Loss-0.3288, Accuracy-0.8285
+[INFO] Epoch-22-Batch-600: Train: Loss-0.2995, Accuracy-0.8306
+[INFO] Epoch-22-Batch-700: Train: Loss-0.6286, Accuracy-0.8288
+[INFO] Epoch-22-Batch-800: Train: Loss-0.5225, Accuracy-0.8307
+[INFO] Epoch-22-Batch-900: Train: Loss-0.3456, Accuracy-0.8306
+[INFO] Epoch-22-Batch-1000: Train: Loss-0.5361, Accuracy-0.8290
+[INFO] Epoch-22-Batch-1100: Train: Loss-0.4447, Accuracy-0.8294
+[INFO] Epoch-22-Batch-1200: Train: Loss-0.6703, Accuracy-0.8293
+[INFO] Epoch-22-Batch-1300: Train: Loss-0.7386, Accuracy-0.8291
+[INFO] Epoch-22-Batch-1400: Train: Loss-0.6979, Accuracy-0.8288
+[INFO] Epoch-22-Batch-1500: Train: Loss-0.6507, Accuracy-0.8284
+[INFO] Epoch-22-Test Accurancy: 0.812
+Saving..
+[INFO] Epoch-23-Batch-100: Train: Loss-0.3927, Accuracy-0.8372
+[INFO] Epoch-23-Batch-200: Train: Loss-0.7034, Accuracy-0.8347
+[INFO] Epoch-23-Batch-300: Train: Loss-0.3905, Accuracy-0.8330
+[INFO] Epoch-23-Batch-400: Train: Loss-0.4464, Accuracy-0.8313
+[INFO] Epoch-23-Batch-500: Train: Loss-0.4563, Accuracy-0.8316
+[INFO] Epoch-23-Batch-600: Train: Loss-0.5191, Accuracy-0.8330
+[INFO] Epoch-23-Batch-700: Train: Loss-0.5685, Accuracy-0.8330
+[INFO] Epoch-23-Batch-800: Train: Loss-0.4594, Accuracy-0.8325
+[INFO] Epoch-23-Batch-900: Train: Loss-0.5688, Accuracy-0.8316
+[INFO] Epoch-23-Batch-1000: Train: Loss-0.2390, Accuracy-0.8317
+[INFO] Epoch-23-Batch-1100: Train: Loss-0.3312, Accuracy-0.8318
+[INFO] Epoch-23-Batch-1200: Train: Loss-0.2502, Accuracy-0.8332
+[INFO] Epoch-23-Batch-1300: Train: Loss-0.5609, Accuracy-0.8327
+[INFO] Epoch-23-Batch-1400: Train: Loss-0.4962, Accuracy-0.8324
+[INFO] Epoch-23-Batch-1500: Train: Loss-0.4235, Accuracy-0.8323
+[INFO] Epoch-23-Test Accurancy: 0.814
+Saving..
+[INFO] Epoch-24-Batch-100: Train: Loss-0.6003, Accuracy-0.8409
+[INFO] Epoch-24-Batch-200: Train: Loss-0.4392, Accuracy-0.8383
+[INFO] Epoch-24-Batch-300: Train: Loss-0.8286, Accuracy-0.8398
+[INFO] Epoch-24-Batch-400: Train: Loss-0.4504, Accuracy-0.8374
+[INFO] Epoch-24-Batch-500: Train: Loss-0.5155, Accuracy-0.8370
+[INFO] Epoch-24-Batch-600: Train: Loss-0.5033, Accuracy-0.8349
+[INFO] Epoch-24-Batch-700: Train: Loss-0.4458, Accuracy-0.8359
+[INFO] Epoch-24-Batch-800: Train: Loss-0.4899, Accuracy-0.8359
+[INFO] Epoch-24-Batch-900: Train: Loss-0.2191, Accuracy-0.8358
+[INFO] Epoch-24-Batch-1000: Train: Loss-0.3346, Accuracy-0.8361
+[INFO] Epoch-24-Batch-1100: Train: Loss-0.2344, Accuracy-0.8365
+[INFO] Epoch-24-Batch-1200: Train: Loss-0.5012, Accuracy-0.8370
+[INFO] Epoch-24-Batch-1300: Train: Loss-0.4601, Accuracy-0.8375
+[INFO] Epoch-24-Batch-1400: Train: Loss-0.9229, Accuracy-0.8374
+[INFO] Epoch-24-Batch-1500: Train: Loss-0.6595, Accuracy-0.8372
+[INFO] Epoch-24-Test Accurancy: 0.817
+Saving..
+[INFO] Epoch-25-Batch-100: Train: Loss-0.5427, Accuracy-0.8409
+[INFO] Epoch-25-Batch-200: Train: Loss-0.7388, Accuracy-0.8461
+[INFO] Epoch-25-Batch-300: Train: Loss-0.7379, Accuracy-0.8444
+[INFO] Epoch-25-Batch-400: Train: Loss-0.4367, Accuracy-0.8441
+[INFO] Epoch-25-Batch-500: Train: Loss-0.4971, Accuracy-0.8431
+[INFO] Epoch-25-Batch-600: Train: Loss-0.4251, Accuracy-0.8426
+[INFO] Epoch-25-Batch-700: Train: Loss-0.7833, Accuracy-0.8425
+[INFO] Epoch-25-Batch-800: Train: Loss-0.4718, Accuracy-0.8416
+[INFO] Epoch-25-Batch-900: Train: Loss-0.5945, Accuracy-0.8421
+[INFO] Epoch-25-Batch-1000: Train: Loss-0.3517, Accuracy-0.8431
+[INFO] Epoch-25-Batch-1100: Train: Loss-0.4978, Accuracy-0.8426
+[INFO] Epoch-25-Batch-1200: Train: Loss-0.3837, Accuracy-0.8437
+[INFO] Epoch-25-Batch-1300: Train: Loss-0.2781, Accuracy-0.8431
+[INFO] Epoch-25-Batch-1400: Train: Loss-0.6771, Accuracy-0.8432
+[INFO] Epoch-25-Batch-1500: Train: Loss-0.8114, Accuracy-0.8428
+[INFO] Epoch-25-Test Accurancy: 0.823
+Saving..
+[INFO] Epoch-26-Batch-100: Train: Loss-0.5861, Accuracy-0.8609
+[INFO] Epoch-26-Batch-200: Train: Loss-0.4122, Accuracy-0.8547
+[INFO] Epoch-26-Batch-300: Train: Loss-0.4312, Accuracy-0.8519
+[INFO] Epoch-26-Batch-400: Train: Loss-0.4078, Accuracy-0.8495
+[INFO] Epoch-26-Batch-500: Train: Loss-0.1540, Accuracy-0.8474
+[INFO] Epoch-26-Batch-600: Train: Loss-0.4071, Accuracy-0.8452
+[INFO] Epoch-26-Batch-700: Train: Loss-0.5672, Accuracy-0.8446
+[INFO] Epoch-26-Batch-800: Train: Loss-0.2770, Accuracy-0.8450
+[INFO] Epoch-26-Batch-900: Train: Loss-0.5038, Accuracy-0.8443
+[INFO] Epoch-26-Batch-1000: Train: Loss-0.3238, Accuracy-0.8441
+[INFO] Epoch-26-Batch-1100: Train: Loss-0.5921, Accuracy-0.8436
+[INFO] Epoch-26-Batch-1200: Train: Loss-0.3398, Accuracy-0.8437
+[INFO] Epoch-26-Batch-1300: Train: Loss-0.5137, Accuracy-0.8430
+[INFO] Epoch-26-Batch-1400: Train: Loss-0.3516, Accuracy-0.8427
+[INFO] Epoch-26-Batch-1500: Train: Loss-0.4473, Accuracy-0.8428
+[INFO] Epoch-26-Test Accurancy: 0.823
+[INFO] Epoch-27-Batch-100: Train: Loss-0.5175, Accuracy-0.8547
+[INFO] Epoch-27-Batch-200: Train: Loss-0.4789, Accuracy-0.8534
+[INFO] Epoch-27-Batch-300: Train: Loss-0.3472, Accuracy-0.8529
+[INFO] Epoch-27-Batch-400: Train: Loss-0.3763, Accuracy-0.8517
+[INFO] Epoch-27-Batch-500: Train: Loss-0.5459, Accuracy-0.8516
+[INFO] Epoch-27-Batch-600: Train: Loss-0.3080, Accuracy-0.8489
+[INFO] Epoch-27-Batch-700: Train: Loss-0.4161, Accuracy-0.8482
+[INFO] Epoch-27-Batch-800: Train: Loss-0.2612, Accuracy-0.8488
+[INFO] Epoch-27-Batch-900: Train: Loss-0.3664, Accuracy-0.8485
+[INFO] Epoch-27-Batch-1000: Train: Loss-0.4015, Accuracy-0.8481
+[INFO] Epoch-27-Batch-1100: Train: Loss-0.4865, Accuracy-0.8483
+[INFO] Epoch-27-Batch-1200: Train: Loss-0.6156, Accuracy-0.8492
+[INFO] Epoch-27-Batch-1300: Train: Loss-0.3839, Accuracy-0.8497
+[INFO] Epoch-27-Batch-1400: Train: Loss-0.6249, Accuracy-0.8478
+[INFO] Epoch-27-Batch-1500: Train: Loss-0.1963, Accuracy-0.8486
+[INFO] Epoch-27-Test Accurancy: 0.826
+Saving..
+[INFO] Epoch-28-Batch-100: Train: Loss-0.3217, Accuracy-0.8594
+[INFO] Epoch-28-Batch-200: Train: Loss-0.4589, Accuracy-0.8541
+[INFO] Epoch-28-Batch-300: Train: Loss-0.4400, Accuracy-0.8558
+[INFO] Epoch-28-Batch-400: Train: Loss-0.4119, Accuracy-0.8573
+[INFO] Epoch-28-Batch-500: Train: Loss-0.3127, Accuracy-0.8568
+[INFO] Epoch-28-Batch-600: Train: Loss-0.4093, Accuracy-0.8547
+[INFO] Epoch-28-Batch-700: Train: Loss-0.3373, Accuracy-0.8543
+[INFO] Epoch-28-Batch-800: Train: Loss-0.5127, Accuracy-0.8543
+[INFO] Epoch-28-Batch-900: Train: Loss-0.5461, Accuracy-0.8545
+[INFO] Epoch-28-Batch-1000: Train: Loss-0.5837, Accuracy-0.8536
+[INFO] Epoch-28-Batch-1100: Train: Loss-0.5136, Accuracy-0.8532
+[INFO] Epoch-28-Batch-1200: Train: Loss-0.2022, Accuracy-0.8524
+[INFO] Epoch-28-Batch-1300: Train: Loss-0.3232, Accuracy-0.8525
+[INFO] Epoch-28-Batch-1400: Train: Loss-0.9561, Accuracy-0.8524
+[INFO] Epoch-28-Batch-1500: Train: Loss-0.2485, Accuracy-0.8523
+[INFO] Epoch-28-Test Accurancy: 0.831
+Saving..
+[INFO] Epoch-29-Batch-100: Train: Loss-0.3097, Accuracy-0.8519
+[INFO] Epoch-29-Batch-200: Train: Loss-0.1919, Accuracy-0.8531
+[INFO] Epoch-29-Batch-300: Train: Loss-0.2627, Accuracy-0.8597
+[INFO] Epoch-29-Batch-400: Train: Loss-0.3742, Accuracy-0.8589
+[INFO] Epoch-29-Batch-500: Train: Loss-0.7354, Accuracy-0.8578
+[INFO] Epoch-29-Batch-600: Train: Loss-0.3115, Accuracy-0.8575
+[INFO] Epoch-29-Batch-700: Train: Loss-0.3692, Accuracy-0.8573
+[INFO] Epoch-29-Batch-800: Train: Loss-0.2504, Accuracy-0.8568
+[INFO] Epoch-29-Batch-900: Train: Loss-0.7494, Accuracy-0.8568
+[INFO] Epoch-29-Batch-1000: Train: Loss-0.1612, Accuracy-0.8563
+[INFO] Epoch-29-Batch-1100: Train: Loss-0.6793, Accuracy-0.8566
+[INFO] Epoch-29-Batch-1200: Train: Loss-0.1665, Accuracy-0.8568
+[INFO] Epoch-29-Batch-1300: Train: Loss-0.4931, Accuracy-0.8568
+[INFO] Epoch-29-Batch-1400: Train: Loss-0.3220, Accuracy-0.8570
+[INFO] Epoch-29-Batch-1500: Train: Loss-0.3039, Accuracy-0.8564
+[INFO] Epoch-29-Test Accurancy: 0.823
+[INFO] Epoch-30-Batch-100: Train: Loss-0.4723, Accuracy-0.8644
+[INFO] Epoch-30-Batch-200: Train: Loss-0.1643, Accuracy-0.8622
+[INFO] Epoch-30-Batch-300: Train: Loss-0.3706, Accuracy-0.8591
+[INFO] Epoch-30-Batch-400: Train: Loss-0.5107, Accuracy-0.8592
+[INFO] Epoch-30-Batch-500: Train: Loss-0.2965, Accuracy-0.8595
+[INFO] Epoch-30-Batch-600: Train: Loss-0.1796, Accuracy-0.8593
+[INFO] Epoch-30-Batch-700: Train: Loss-0.2200, Accuracy-0.8577
+[INFO] Epoch-30-Batch-800: Train: Loss-0.2663, Accuracy-0.8574
+[INFO] Epoch-30-Batch-900: Train: Loss-0.4758, Accuracy-0.8566
+[INFO] Epoch-30-Batch-1000: Train: Loss-0.6575, Accuracy-0.8574
+[INFO] Epoch-30-Batch-1100: Train: Loss-0.5735, Accuracy-0.8576
+[INFO] Epoch-30-Batch-1200: Train: Loss-0.3522, Accuracy-0.8578
+[INFO] Epoch-30-Batch-1300: Train: Loss-0.3979, Accuracy-0.8574
+[INFO] Epoch-30-Batch-1400: Train: Loss-0.4812, Accuracy-0.8569
+[INFO] Epoch-30-Batch-1500: Train: Loss-0.6477, Accuracy-0.8569
+[INFO] Epoch-30-Test Accurancy: 0.814
+[INFO] Epoch-31-Batch-100: Train: Loss-0.4167, Accuracy-0.8741
+[INFO] Epoch-31-Batch-200: Train: Loss-0.5779, Accuracy-0.8636
+[INFO] Epoch-31-Batch-300: Train: Loss-0.4287, Accuracy-0.8623
+[INFO] Epoch-31-Batch-400: Train: Loss-0.3203, Accuracy-0.8630
+[INFO] Epoch-31-Batch-500: Train: Loss-0.3505, Accuracy-0.8642
+[INFO] Epoch-31-Batch-600: Train: Loss-0.4214, Accuracy-0.8629
+[INFO] Epoch-31-Batch-700: Train: Loss-0.3680, Accuracy-0.8623
+[INFO] Epoch-31-Batch-800: Train: Loss-0.4181, Accuracy-0.8633
+[INFO] Epoch-31-Batch-900: Train: Loss-0.5141, Accuracy-0.8624
+[INFO] Epoch-31-Batch-1000: Train: Loss-0.2572, Accuracy-0.8620
+[INFO] Epoch-31-Batch-1100: Train: Loss-0.2617, Accuracy-0.8621
+[INFO] Epoch-31-Batch-1200: Train: Loss-0.1877, Accuracy-0.8615
+[INFO] Epoch-31-Batch-1300: Train: Loss-0.6268, Accuracy-0.8611
+[INFO] Epoch-31-Batch-1400: Train: Loss-0.4864, Accuracy-0.8606
+[INFO] Epoch-31-Batch-1500: Train: Loss-0.3941, Accuracy-0.8604
+[INFO] Epoch-31-Test Accurancy: 0.833
+Saving..
+[INFO] Epoch-32-Batch-100: Train: Loss-0.6751, Accuracy-0.8706
+[INFO] Epoch-32-Batch-200: Train: Loss-0.4419, Accuracy-0.8706
+[INFO] Epoch-32-Batch-300: Train: Loss-0.3993, Accuracy-0.8673
+[INFO] Epoch-32-Batch-400: Train: Loss-0.6332, Accuracy-0.8671
+[INFO] Epoch-32-Batch-500: Train: Loss-0.2781, Accuracy-0.8694
+[INFO] Epoch-32-Batch-600: Train: Loss-0.3572, Accuracy-0.8669
+[INFO] Epoch-32-Batch-700: Train: Loss-0.2613, Accuracy-0.8667
+[INFO] Epoch-32-Batch-800: Train: Loss-0.2798, Accuracy-0.8663
+[INFO] Epoch-32-Batch-900: Train: Loss-0.2589, Accuracy-0.8661
+[INFO] Epoch-32-Batch-1000: Train: Loss-0.3073, Accuracy-0.8658
+[INFO] Epoch-32-Batch-1100: Train: Loss-0.1410, Accuracy-0.8655
+[INFO] Epoch-32-Batch-1200: Train: Loss-0.2947, Accuracy-0.8643
+[INFO] Epoch-32-Batch-1300: Train: Loss-0.3526, Accuracy-0.8647
+[INFO] Epoch-32-Batch-1400: Train: Loss-0.4108, Accuracy-0.8644
+[INFO] Epoch-32-Batch-1500: Train: Loss-0.4401, Accuracy-0.8642
+[INFO] Epoch-32-Test Accurancy: 0.826
+[INFO] Epoch-33-Batch-100: Train: Loss-0.3343, Accuracy-0.8681
+[INFO] Epoch-33-Batch-200: Train: Loss-0.1878, Accuracy-0.8670
+[INFO] Epoch-33-Batch-300: Train: Loss-0.4160, Accuracy-0.8649
+[INFO] Epoch-33-Batch-400: Train: Loss-0.2500, Accuracy-0.8620
+[INFO] Epoch-33-Batch-500: Train: Loss-0.7662, Accuracy-0.8646
+[INFO] Epoch-33-Batch-600: Train: Loss-0.5023, Accuracy-0.8644
+[INFO] Epoch-33-Batch-700: Train: Loss-0.4304, Accuracy-0.8646
+[INFO] Epoch-33-Batch-800: Train: Loss-0.4770, Accuracy-0.8643
+[INFO] Epoch-33-Batch-900: Train: Loss-0.4750, Accuracy-0.8648
+[INFO] Epoch-33-Batch-1000: Train: Loss-0.2606, Accuracy-0.8648
+[INFO] Epoch-33-Batch-1100: Train: Loss-0.4161, Accuracy-0.8647
+[INFO] Epoch-33-Batch-1200: Train: Loss-0.5425, Accuracy-0.8648
+[INFO] Epoch-33-Batch-1300: Train: Loss-0.2719, Accuracy-0.8649
+[INFO] Epoch-33-Batch-1400: Train: Loss-0.2588, Accuracy-0.8648
+[INFO] Epoch-33-Batch-1500: Train: Loss-0.2767, Accuracy-0.8648
+[INFO] Epoch-33-Test Accurancy: 0.830
+[INFO] Epoch-34-Batch-100: Train: Loss-0.3594, Accuracy-0.8775
+[INFO] Epoch-34-Batch-200: Train: Loss-0.5353, Accuracy-0.8755
+[INFO] Epoch-34-Batch-300: Train: Loss-0.4517, Accuracy-0.8721
+[INFO] Epoch-34-Batch-400: Train: Loss-0.2999, Accuracy-0.8724
+[INFO] Epoch-34-Batch-500: Train: Loss-0.2629, Accuracy-0.8726
+[INFO] Epoch-34-Batch-600: Train: Loss-0.3571, Accuracy-0.8722
+[INFO] Epoch-34-Batch-700: Train: Loss-0.4696, Accuracy-0.8724
+[INFO] Epoch-34-Batch-800: Train: Loss-0.4208, Accuracy-0.8709
+[INFO] Epoch-34-Batch-900: Train: Loss-0.1409, Accuracy-0.8703
+[INFO] Epoch-34-Batch-1000: Train: Loss-0.1103, Accuracy-0.8704
+[INFO] Epoch-34-Batch-1100: Train: Loss-0.2813, Accuracy-0.8682
+[INFO] Epoch-34-Batch-1200: Train: Loss-0.2571, Accuracy-0.8680
+[INFO] Epoch-34-Batch-1300: Train: Loss-0.7100, Accuracy-0.8681
+[INFO] Epoch-34-Batch-1400: Train: Loss-0.6554, Accuracy-0.8680
+[INFO] Epoch-34-Batch-1500: Train: Loss-0.3845, Accuracy-0.8673
+[INFO] Epoch-34-Test Accurancy: 0.830
+[INFO] Epoch-35-Batch-100: Train: Loss-0.2404, Accuracy-0.8756
+[INFO] Epoch-35-Batch-200: Train: Loss-0.6403, Accuracy-0.8739
+[INFO] Epoch-35-Batch-300: Train: Loss-0.5557, Accuracy-0.8761
+[INFO] Epoch-35-Batch-400: Train: Loss-0.3383, Accuracy-0.8749
+[INFO] Epoch-35-Batch-500: Train: Loss-0.5007, Accuracy-0.8732
+[INFO] Epoch-35-Batch-600: Train: Loss-0.1651, Accuracy-0.8736
+[INFO] Epoch-35-Batch-700: Train: Loss-0.3705, Accuracy-0.8751
+[INFO] Epoch-35-Batch-800: Train: Loss-0.3893, Accuracy-0.8745
+[INFO] Epoch-35-Batch-900: Train: Loss-0.6695, Accuracy-0.8743
+[INFO] Epoch-35-Batch-1000: Train: Loss-0.5249, Accuracy-0.8732
+[INFO] Epoch-35-Batch-1100: Train: Loss-0.3211, Accuracy-0.8735
+[INFO] Epoch-35-Batch-1200: Train: Loss-0.2773, Accuracy-0.8730
+[INFO] Epoch-35-Batch-1300: Train: Loss-0.4309, Accuracy-0.8730
+[INFO] Epoch-35-Batch-1400: Train: Loss-0.1589, Accuracy-0.8731
+[INFO] Epoch-35-Batch-1500: Train: Loss-0.2972, Accuracy-0.8728
+[INFO] Epoch-35-Test Accurancy: 0.831
+[INFO] Epoch-36-Batch-100: Train: Loss-0.5277, Accuracy-0.8838
+[INFO] Epoch-36-Batch-200: Train: Loss-0.1230, Accuracy-0.8736
+[INFO] Epoch-36-Batch-300: Train: Loss-0.6076, Accuracy-0.8750
+[INFO] Epoch-36-Batch-400: Train: Loss-0.4634, Accuracy-0.8733
+[INFO] Epoch-36-Batch-500: Train: Loss-0.6340, Accuracy-0.8739
+[INFO] Epoch-36-Batch-600: Train: Loss-0.1158, Accuracy-0.8739
+[INFO] Epoch-36-Batch-700: Train: Loss-0.2986, Accuracy-0.8740
+[INFO] Epoch-36-Batch-800: Train: Loss-0.2387, Accuracy-0.8738
+[INFO] Epoch-36-Batch-900: Train: Loss-0.4264, Accuracy-0.8744
+[INFO] Epoch-36-Batch-1000: Train: Loss-0.1281, Accuracy-0.8752
+[INFO] Epoch-36-Batch-1100: Train: Loss-0.2858, Accuracy-0.8757
+[INFO] Epoch-36-Batch-1200: Train: Loss-0.4491, Accuracy-0.8748
+[INFO] Epoch-36-Batch-1300: Train: Loss-0.4161, Accuracy-0.8742
+[INFO] Epoch-36-Batch-1400: Train: Loss-0.4237, Accuracy-0.8736
+[INFO] Epoch-36-Batch-1500: Train: Loss-0.2753, Accuracy-0.8737
+[INFO] Epoch-36-Test Accurancy: 0.833
+[INFO] Epoch-37-Batch-100: Train: Loss-0.1969, Accuracy-0.8756
+[INFO] Epoch-37-Batch-200: Train: Loss-0.4336, Accuracy-0.8783
+[INFO] Epoch-37-Batch-300: Train: Loss-0.0780, Accuracy-0.8780
+[INFO] Epoch-37-Batch-400: Train: Loss-0.5453, Accuracy-0.8787
+[INFO] Epoch-37-Batch-500: Train: Loss-0.2961, Accuracy-0.8770
+[INFO] Epoch-37-Batch-600: Train: Loss-0.3744, Accuracy-0.8792
+[INFO] Epoch-37-Batch-700: Train: Loss-0.4590, Accuracy-0.8793
+[INFO] Epoch-37-Batch-800: Train: Loss-0.0920, Accuracy-0.8771
+[INFO] Epoch-37-Batch-900: Train: Loss-0.2041, Accuracy-0.8752
+[INFO] Epoch-37-Batch-1000: Train: Loss-0.2560, Accuracy-0.8747
+[INFO] Epoch-37-Batch-1100: Train: Loss-0.2949, Accuracy-0.8740
+[INFO] Epoch-37-Batch-1200: Train: Loss-0.4788, Accuracy-0.8744
+[INFO] Epoch-37-Batch-1300: Train: Loss-0.2698, Accuracy-0.8743
+[INFO] Epoch-37-Batch-1400: Train: Loss-0.3163, Accuracy-0.8740
+[INFO] Epoch-37-Batch-1500: Train: Loss-0.4137, Accuracy-0.8738
+[INFO] Epoch-37-Test Accurancy: 0.827
+[INFO] Epoch-38-Batch-100: Train: Loss-0.1989, Accuracy-0.8850
+[INFO] Epoch-38-Batch-200: Train: Loss-0.2091, Accuracy-0.8841
+[INFO] Epoch-38-Batch-300: Train: Loss-0.4020, Accuracy-0.8826
+[INFO] Epoch-38-Batch-400: Train: Loss-0.2603, Accuracy-0.8830
+[INFO] Epoch-38-Batch-500: Train: Loss-0.3855, Accuracy-0.8813
+[INFO] Epoch-38-Batch-600: Train: Loss-0.1468, Accuracy-0.8795
+[INFO] Epoch-38-Batch-700: Train: Loss-0.1692, Accuracy-0.8795
+[INFO] Epoch-38-Batch-800: Train: Loss-0.2484, Accuracy-0.8790
+[INFO] Epoch-38-Batch-900: Train: Loss-0.5438, Accuracy-0.8802
+[INFO] Epoch-38-Batch-1000: Train: Loss-0.2642, Accuracy-0.8800
+[INFO] Epoch-38-Batch-1100: Train: Loss-0.3067, Accuracy-0.8799
+[INFO] Epoch-38-Batch-1200: Train: Loss-0.6138, Accuracy-0.8797
+[INFO] Epoch-38-Batch-1300: Train: Loss-0.3847, Accuracy-0.8798
+[INFO] Epoch-38-Batch-1400: Train: Loss-0.3997, Accuracy-0.8796
+[INFO] Epoch-38-Batch-1500: Train: Loss-0.4794, Accuracy-0.8795
+[INFO] Epoch-38-Test Accurancy: 0.831
+[INFO] Epoch-39-Batch-100: Train: Loss-0.2513, Accuracy-0.8891
+[INFO] Epoch-39-Batch-200: Train: Loss-0.4265, Accuracy-0.8861
+[INFO] Epoch-39-Batch-300: Train: Loss-0.5690, Accuracy-0.8824
+[INFO] Epoch-39-Batch-400: Train: Loss-0.1285, Accuracy-0.8809
+[INFO] Epoch-39-Batch-500: Train: Loss-0.2196, Accuracy-0.8810
+[INFO] Epoch-39-Batch-600: Train: Loss-0.3407, Accuracy-0.8795
+[INFO] Epoch-39-Batch-700: Train: Loss-0.2814, Accuracy-0.8801
+[INFO] Epoch-39-Batch-800: Train: Loss-0.3168, Accuracy-0.8808
+[INFO] Epoch-39-Batch-900: Train: Loss-0.4731, Accuracy-0.8808
+[INFO] Epoch-39-Batch-1000: Train: Loss-0.2395, Accuracy-0.8807
+[INFO] Epoch-39-Batch-1100: Train: Loss-0.3476, Accuracy-0.8797
+[INFO] Epoch-39-Batch-1200: Train: Loss-0.2959, Accuracy-0.8799
+[INFO] Epoch-39-Batch-1300: Train: Loss-0.4173, Accuracy-0.8804
+[INFO] Epoch-39-Batch-1400: Train: Loss-0.3580, Accuracy-0.8803
+[INFO] Epoch-39-Batch-1500: Train: Loss-0.1604, Accuracy-0.8801
+[INFO] Epoch-39-Test Accurancy: 0.838
+Saving..
+[INFO] Epoch-40-Batch-100: Train: Loss-0.1380, Accuracy-0.8822
+[INFO] Epoch-40-Batch-200: Train: Loss-0.4411, Accuracy-0.8803
+[INFO] Epoch-40-Batch-300: Train: Loss-0.2917, Accuracy-0.8795
+[INFO] Epoch-40-Batch-400: Train: Loss-0.3409, Accuracy-0.8798
+[INFO] Epoch-40-Batch-500: Train: Loss-0.3630, Accuracy-0.8799
+[INFO] Epoch-40-Batch-600: Train: Loss-0.2441, Accuracy-0.8816
+[INFO] Epoch-40-Batch-700: Train: Loss-0.4087, Accuracy-0.8821
+[INFO] Epoch-40-Batch-800: Train: Loss-0.2143, Accuracy-0.8815
+[INFO] Epoch-40-Batch-900: Train: Loss-0.3754, Accuracy-0.8814
+[INFO] Epoch-40-Batch-1000: Train: Loss-0.3988, Accuracy-0.8812
+[INFO] Epoch-40-Batch-1100: Train: Loss-0.2380, Accuracy-0.8813
+[INFO] Epoch-40-Batch-1200: Train: Loss-0.2582, Accuracy-0.8809
+[INFO] Epoch-40-Batch-1300: Train: Loss-0.4269, Accuracy-0.8814
+[INFO] Epoch-40-Batch-1400: Train: Loss-0.3463, Accuracy-0.8815
+[INFO] Epoch-40-Batch-1500: Train: Loss-0.2254, Accuracy-0.8810
+[INFO] Epoch-40-Test Accurancy: 0.837
+[INFO] Epoch-41-Batch-100: Train: Loss-0.3723, Accuracy-0.8900
+[INFO] Epoch-41-Batch-200: Train: Loss-0.5531, Accuracy-0.8892
+[INFO] Epoch-41-Batch-300: Train: Loss-0.4284, Accuracy-0.8894
+[INFO] Epoch-41-Batch-400: Train: Loss-0.3331, Accuracy-0.8883
+[INFO] Epoch-41-Batch-500: Train: Loss-0.1787, Accuracy-0.8861
+[INFO] Epoch-41-Batch-600: Train: Loss-0.3995, Accuracy-0.8852
+[INFO] Epoch-41-Batch-700: Train: Loss-0.5854, Accuracy-0.8845
+[INFO] Epoch-41-Batch-800: Train: Loss-0.3109, Accuracy-0.8838
+[INFO] Epoch-41-Batch-900: Train: Loss-0.1676, Accuracy-0.8840
+[INFO] Epoch-41-Batch-1000: Train: Loss-0.2683, Accuracy-0.8849
+[INFO] Epoch-41-Batch-1100: Train: Loss-0.3025, Accuracy-0.8847
+[INFO] Epoch-41-Batch-1200: Train: Loss-0.3000, Accuracy-0.8841
+[INFO] Epoch-41-Batch-1300: Train: Loss-0.3755, Accuracy-0.8833
+[INFO] Epoch-41-Batch-1400: Train: Loss-0.2374, Accuracy-0.8824
+[INFO] Epoch-41-Batch-1500: Train: Loss-0.3004, Accuracy-0.8823
+[INFO] Epoch-41-Test Accurancy: 0.826
+[INFO] Epoch-42-Batch-100: Train: Loss-0.3741, Accuracy-0.8934
+[INFO] Epoch-42-Batch-200: Train: Loss-0.1846, Accuracy-0.8922
+[INFO] Epoch-42-Batch-300: Train: Loss-0.3937, Accuracy-0.8925
+[INFO] Epoch-42-Batch-400: Train: Loss-0.2487, Accuracy-0.8891
+[INFO] Epoch-42-Batch-500: Train: Loss-0.3010, Accuracy-0.8875
+[INFO] Epoch-42-Batch-600: Train: Loss-0.2874, Accuracy-0.8874
+[INFO] Epoch-42-Batch-700: Train: Loss-0.5009, Accuracy-0.8875
+[INFO] Epoch-42-Batch-800: Train: Loss-0.2418, Accuracy-0.8848
+[INFO] Epoch-42-Batch-900: Train: Loss-0.2267, Accuracy-0.8841
+[INFO] Epoch-42-Batch-1000: Train: Loss-0.2062, Accuracy-0.8837
+[INFO] Epoch-42-Batch-1100: Train: Loss-0.1976, Accuracy-0.8844
+[INFO] Epoch-42-Batch-1200: Train: Loss-0.1748, Accuracy-0.8844
+[INFO] Epoch-42-Batch-1300: Train: Loss-0.5187, Accuracy-0.8847
+[INFO] Epoch-42-Batch-1400: Train: Loss-0.3352, Accuracy-0.8844
+[INFO] Epoch-42-Batch-1500: Train: Loss-0.3200, Accuracy-0.8849
+[INFO] Epoch-42-Test Accurancy: 0.838
+Saving..
+[INFO] Epoch-43-Batch-100: Train: Loss-0.1816, Accuracy-0.8906
+[INFO] Epoch-43-Batch-200: Train: Loss-0.3398, Accuracy-0.8930
+[INFO] Epoch-43-Batch-300: Train: Loss-0.0960, Accuracy-0.8949
+[INFO] Epoch-43-Batch-400: Train: Loss-1.0516, Accuracy-0.8931
+[INFO] Epoch-43-Batch-500: Train: Loss-0.3215, Accuracy-0.8874
+[INFO] Epoch-43-Batch-600: Train: Loss-0.3804, Accuracy-0.8843
+[INFO] Epoch-43-Batch-700: Train: Loss-0.7692, Accuracy-0.8850
+[INFO] Epoch-43-Batch-800: Train: Loss-0.3393, Accuracy-0.8858
+[INFO] Epoch-43-Batch-900: Train: Loss-0.2561, Accuracy-0.8854
+[INFO] Epoch-43-Batch-1000: Train: Loss-0.2922, Accuracy-0.8854
+[INFO] Epoch-43-Batch-1100: Train: Loss-0.2209, Accuracy-0.8861
+[INFO] Epoch-43-Batch-1200: Train: Loss-0.2968, Accuracy-0.8861
+[INFO] Epoch-43-Batch-1300: Train: Loss-0.1885, Accuracy-0.8861
+[INFO] Epoch-43-Batch-1400: Train: Loss-0.4380, Accuracy-0.8851
+[INFO] Epoch-43-Batch-1500: Train: Loss-0.5683, Accuracy-0.8848
+[INFO] Epoch-43-Test Accurancy: 0.834
+[INFO] Epoch-44-Batch-100: Train: Loss-0.2395, Accuracy-0.8969
+[INFO] Epoch-44-Batch-200: Train: Loss-0.4609, Accuracy-0.8947
+[INFO] Epoch-44-Batch-300: Train: Loss-0.2448, Accuracy-0.8936
+[INFO] Epoch-44-Batch-400: Train: Loss-0.0993, Accuracy-0.8923
+[INFO] Epoch-44-Batch-500: Train: Loss-0.1345, Accuracy-0.8929
+[INFO] Epoch-44-Batch-600: Train: Loss-0.3119, Accuracy-0.8925
+[INFO] Epoch-44-Batch-700: Train: Loss-0.5423, Accuracy-0.8913
+[INFO] Epoch-44-Batch-800: Train: Loss-0.1495, Accuracy-0.8914
+[INFO] Epoch-44-Batch-900: Train: Loss-0.2708, Accuracy-0.8918
+[INFO] Epoch-44-Batch-1000: Train: Loss-0.0820, Accuracy-0.8917
+[INFO] Epoch-44-Batch-1100: Train: Loss-0.3942, Accuracy-0.8913
+[INFO] Epoch-44-Batch-1200: Train: Loss-0.4427, Accuracy-0.8914
+[INFO] Epoch-44-Batch-1300: Train: Loss-0.2063, Accuracy-0.8909
+[INFO] Epoch-44-Batch-1400: Train: Loss-0.4935, Accuracy-0.8901
+[INFO] Epoch-44-Batch-1500: Train: Loss-0.6794, Accuracy-0.8899
+[INFO] Epoch-44-Test Accurancy: 0.839
+Saving..
+[INFO] Epoch-45-Batch-100: Train: Loss-0.2307, Accuracy-0.9012
+[INFO] Epoch-45-Batch-200: Train: Loss-0.2515, Accuracy-0.8944
+[INFO] Epoch-45-Batch-300: Train: Loss-0.3831, Accuracy-0.8926
+[INFO] Epoch-45-Batch-400: Train: Loss-0.2791, Accuracy-0.8884
+[INFO] Epoch-45-Batch-500: Train: Loss-0.1273, Accuracy-0.8890
+[INFO] Epoch-45-Batch-600: Train: Loss-0.5280, Accuracy-0.8888
+[INFO] Epoch-45-Batch-700: Train: Loss-0.1938, Accuracy-0.8902
+[INFO] Epoch-45-Batch-800: Train: Loss-0.4386, Accuracy-0.8893
+[INFO] Epoch-45-Batch-900: Train: Loss-0.3678, Accuracy-0.8902
+[INFO] Epoch-45-Batch-1000: Train: Loss-0.2321, Accuracy-0.8900
+[INFO] Epoch-45-Batch-1100: Train: Loss-0.1213, Accuracy-0.8897
+[INFO] Epoch-45-Batch-1200: Train: Loss-0.1797, Accuracy-0.8897
+[INFO] Epoch-45-Batch-1300: Train: Loss-0.2294, Accuracy-0.8904
+[INFO] Epoch-45-Batch-1400: Train: Loss-0.3800, Accuracy-0.8891
+[INFO] Epoch-45-Batch-1500: Train: Loss-0.0920, Accuracy-0.8883
+[INFO] Epoch-45-Test Accurancy: 0.842
+Saving..
+[INFO] Epoch-46-Batch-100: Train: Loss-0.2842, Accuracy-0.8981
+[INFO] Epoch-46-Batch-200: Train: Loss-0.3650, Accuracy-0.8973
+[INFO] Epoch-46-Batch-300: Train: Loss-0.1213, Accuracy-0.8974
+[INFO] Epoch-46-Batch-400: Train: Loss-0.4483, Accuracy-0.8957
+[INFO] Epoch-46-Batch-500: Train: Loss-0.2680, Accuracy-0.8965
+[INFO] Epoch-46-Batch-600: Train: Loss-0.3015, Accuracy-0.8977
+[INFO] Epoch-46-Batch-700: Train: Loss-0.2736, Accuracy-0.8960
+[INFO] Epoch-46-Batch-800: Train: Loss-0.2754, Accuracy-0.8951
+[INFO] Epoch-46-Batch-900: Train: Loss-0.4162, Accuracy-0.8936
+[INFO] Epoch-46-Batch-1000: Train: Loss-0.2804, Accuracy-0.8933
+[INFO] Epoch-46-Batch-1100: Train: Loss-0.3751, Accuracy-0.8934
+[INFO] Epoch-46-Batch-1200: Train: Loss-0.2794, Accuracy-0.8936
+[INFO] Epoch-46-Batch-1300: Train: Loss-0.2783, Accuracy-0.8935
+[INFO] Epoch-46-Batch-1400: Train: Loss-0.2781, Accuracy-0.8940
+[INFO] Epoch-46-Batch-1500: Train: Loss-0.4151, Accuracy-0.8935
+[INFO] Epoch-46-Test Accurancy: 0.841
+[INFO] Epoch-47-Batch-100: Train: Loss-0.2878, Accuracy-0.8966
+[INFO] Epoch-47-Batch-200: Train: Loss-0.3488, Accuracy-0.8961
+[INFO] Epoch-47-Batch-300: Train: Loss-0.4682, Accuracy-0.8986
+[INFO] Epoch-47-Batch-400: Train: Loss-0.3366, Accuracy-0.8962
+[INFO] Epoch-47-Batch-500: Train: Loss-0.1697, Accuracy-0.8958
+[INFO] Epoch-47-Batch-600: Train: Loss-0.2033, Accuracy-0.8952
+[INFO] Epoch-47-Batch-700: Train: Loss-0.1834, Accuracy-0.8972
+[INFO] Epoch-47-Batch-800: Train: Loss-0.3171, Accuracy-0.8978
+[INFO] Epoch-47-Batch-900: Train: Loss-0.4335, Accuracy-0.8984
+[INFO] Epoch-47-Batch-1000: Train: Loss-0.4437, Accuracy-0.8994
+[INFO] Epoch-47-Batch-1100: Train: Loss-0.2308, Accuracy-0.8990
+[INFO] Epoch-47-Batch-1200: Train: Loss-0.3811, Accuracy-0.8985
+[INFO] Epoch-47-Batch-1300: Train: Loss-0.2932, Accuracy-0.8987
+[INFO] Epoch-47-Batch-1400: Train: Loss-0.4084, Accuracy-0.8984
+[INFO] Epoch-47-Batch-1500: Train: Loss-0.2174, Accuracy-0.8982
+[INFO] Epoch-47-Test Accurancy: 0.842
+Saving..
+[INFO] Epoch-48-Batch-100: Train: Loss-0.3803, Accuracy-0.9006
+[INFO] Epoch-48-Batch-200: Train: Loss-0.5076, Accuracy-0.8991
+[INFO] Epoch-48-Batch-300: Train: Loss-0.2578, Accuracy-0.9030
+[INFO] Epoch-48-Batch-400: Train: Loss-0.3593, Accuracy-0.9032
+[INFO] Epoch-48-Batch-500: Train: Loss-0.2889, Accuracy-0.9037
+[INFO] Epoch-48-Batch-600: Train: Loss-0.2887, Accuracy-0.9031
+[INFO] Epoch-48-Batch-700: Train: Loss-0.3266, Accuracy-0.9033
+[INFO] Epoch-48-Batch-800: Train: Loss-0.3688, Accuracy-0.9025
+[INFO] Epoch-48-Batch-900: Train: Loss-0.2103, Accuracy-0.9018
+[INFO] Epoch-48-Batch-1000: Train: Loss-0.3753, Accuracy-0.9009
+[INFO] Epoch-48-Batch-1100: Train: Loss-0.4004, Accuracy-0.9007
+[INFO] Epoch-48-Batch-1200: Train: Loss-0.4972, Accuracy-0.9002
+[INFO] Epoch-48-Batch-1300: Train: Loss-0.2816, Accuracy-0.8992
+[INFO] Epoch-48-Batch-1400: Train: Loss-0.1718, Accuracy-0.8985
+[INFO] Epoch-48-Batch-1500: Train: Loss-0.2752, Accuracy-0.8985
+[INFO] Epoch-48-Test Accurancy: 0.845
+Saving..
+[INFO] Epoch-49-Batch-100: Train: Loss-0.1330, Accuracy-0.9006
+[INFO] Epoch-49-Batch-200: Train: Loss-0.1106, Accuracy-0.9059
+[INFO] Epoch-49-Batch-300: Train: Loss-0.8741, Accuracy-0.9029
+[INFO] Epoch-49-Batch-400: Train: Loss-0.2847, Accuracy-0.9031
+[INFO] Epoch-49-Batch-500: Train: Loss-0.3439, Accuracy-0.9034
+[INFO] Epoch-49-Batch-600: Train: Loss-0.3449, Accuracy-0.9023
+[INFO] Epoch-49-Batch-700: Train: Loss-0.1753, Accuracy-0.9034
+[INFO] Epoch-49-Batch-800: Train: Loss-0.1283, Accuracy-0.9010
+[INFO] Epoch-49-Batch-900: Train: Loss-0.2824, Accuracy-0.8998
+[INFO] Epoch-49-Batch-1000: Train: Loss-0.2595, Accuracy-0.8999
+[INFO] Epoch-49-Batch-1100: Train: Loss-0.2915, Accuracy-0.8999
+[INFO] Epoch-49-Batch-1200: Train: Loss-0.1531, Accuracy-0.9002
+[INFO] Epoch-49-Batch-1300: Train: Loss-0.3229, Accuracy-0.8996
+[INFO] Epoch-49-Batch-1400: Train: Loss-0.2532, Accuracy-0.8989
+[INFO] Epoch-49-Batch-1500: Train: Loss-0.1899, Accuracy-0.8985
+[INFO] Epoch-49-Test Accurancy: 0.845
+[INFO] Epoch-50-Batch-100: Train: Loss-0.2289, Accuracy-0.9109
+[INFO] Epoch-50-Batch-200: Train: Loss-0.2752, Accuracy-0.9073
+[INFO] Epoch-50-Batch-300: Train: Loss-0.1943, Accuracy-0.9066
+[INFO] Epoch-50-Batch-400: Train: Loss-0.5245, Accuracy-0.9067
+[INFO] Epoch-50-Batch-500: Train: Loss-0.1540, Accuracy-0.9071
+[INFO] Epoch-50-Batch-600: Train: Loss-0.2609, Accuracy-0.9055
+[INFO] Epoch-50-Batch-700: Train: Loss-0.4965, Accuracy-0.9047
+[INFO] Epoch-50-Batch-800: Train: Loss-0.3859, Accuracy-0.9030
+[INFO] Epoch-50-Batch-900: Train: Loss-0.2635, Accuracy-0.9025
+[INFO] Epoch-50-Batch-1000: Train: Loss-0.0990, Accuracy-0.9021
+[INFO] Epoch-50-Batch-1100: Train: Loss-0.5865, Accuracy-0.9019
+[INFO] Epoch-50-Batch-1200: Train: Loss-0.2738, Accuracy-0.9018
+[INFO] Epoch-50-Batch-1300: Train: Loss-0.2207, Accuracy-0.9011
+[INFO] Epoch-50-Batch-1400: Train: Loss-0.1385, Accuracy-0.9012
+[INFO] Epoch-50-Batch-1500: Train: Loss-0.1925, Accuracy-0.9010
+[INFO] Epoch-50-Test Accurancy: 0.840
+Best Acc: 8453.0%
+Training Done.

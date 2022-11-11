@@ -1,0 +1,36 @@
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+==> Building model..
+[INFO] Epoch-1-Batch-100: Train: Loss-1.7737, Accuracy-0.2275
+[INFO] Epoch-1-Batch-200: Train: Loss-1.9843, Accuracy-0.2575
+[INFO] Epoch-1-Batch-300: Train: Loss-1.6810, Accuracy-0.2869
+[INFO] Epoch-1-Batch-400: Train: Loss-1.4439, Accuracy-0.3047
+[INFO] Epoch-1-Batch-500: Train: Loss-1.6709, Accuracy-0.3182
+[INFO] Epoch-1-Batch-600: Train: Loss-1.4701, Accuracy-0.3361
+[INFO] Epoch-1-Batch-700: Train: Loss-1.4659, Accuracy-0.3487
+[INFO] Epoch-1-Batch-800: Train: Loss-1.5084, Accuracy-0.3608
+[INFO] Epoch-1-Batch-900: Train: Loss-1.1871, Accuracy-0.3739
+[INFO] Epoch-1-Batch-1000: Train: Loss-1.2396, Accuracy-0.3843
+[INFO] Epoch-1-Batch-1100: Train: Loss-1.5537, Accuracy-0.3937
+[INFO] Epoch-1-Batch-1200: Train: Loss-1.2042, Accuracy-0.4035
+[INFO] Epoch-1-Batch-1300: Train: Loss-1.1656, Accuracy-0.4143
+[INFO] Epoch-1-Batch-1400: Train: Loss-1.2006, Accuracy-0.4235
+[INFO] Epoch-1-Batch-1500: Train: Loss-0.9493, Accuracy-0.4322
+[INFO] Epoch-1-Test Accurancy: 0.596
+Saving..
+[INFO] Epoch-2-Batch-100: Train: Loss-1.0254, Accuracy-0.5737
+[INFO] Epoch-2-Batch-200: Train: Loss-1.3596, Accuracy-0.5737
+[INFO] Epoch-2-Batch-300: Train: Loss-1.2410, Accuracy-0.5831
+[INFO] Epoch-2-Batch-400: Train: Loss-0.9096, Accuracy-0.5889
+[INFO] Epoch-2-Batch-500: Train: Loss-0.8926, Accuracy-0.5948
+[INFO] Epoch-2-Batch-600: Train: Loss-0.8388, Accuracy-0.6025
+[INFO] Epoch-2-Batch-700: Train: Loss-0.8090, Accuracy-0.6062
+[INFO] Epoch-2-Batch-800: Train: Loss-1.4058, Accuracy-0.6097
+[INFO] Epoch-2-Batch-900: Train: Loss-0.6975, Accuracy-0.6139
+Traceback (most recent call last):
+  File "C:/Users/12137/Desktop/硕士毕业论文/论文！！!/Deep learning cifar10/Deep learning CIFAR-10/pytorch_cifar10_main.py", line 190, in <module>
+    train(epoch)
+  File "C:/Users/12137/Desktop/硕士毕业论文/论文！！!/Deep learning cifar10/Deep learning CIFAR-10/pytorch_cifar10_main.py", line 50, in train
+    train_loss += loss.item()
+KeyboardInterrupt

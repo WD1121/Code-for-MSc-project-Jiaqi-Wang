@@ -1,0 +1,19 @@
+{
+	"dataset" : "CIFAR",
+
+	"n_client" : 50,
+
+	"chosen_client" : 10,
+	
+	"global_epochs" : 50,
+	
+	"local_epochs" : 10,
+	
+	"batch_size" : 32,
+	
+	"lr" : 0.01,
+	
+	"momentum" : 0.9,
+	
+	"lamb" : 0.1
+}

@@ -1,0 +1,12 @@
+
+Files already downloaded and verified
+Traceback (most recent call last):
+  File "main.py", line 28, in <module>
+    server = Server(conf, eval_datasets)  # create server
+  File "C:\Users\12137\Desktop\硕士毕业论文\论文！！!\FL_image_classification\server.py", line 12, in __init__
+    self.global_model = ResNet18()
+  File "C:\Users\12137\Desktop\硕士毕业论文\论文！！!\FL_image_classification\model.py", line 86, in ResNet18
+    return resnet18(BasicBlock)
+  File "C:\Users\12137\Desktop\硕士毕业论文\论文！！!\FL_image_classification\model.py", line 40, in __init__
+    super(ResNet18, self).__init__()
+TypeError: super() argument 1 must be type, not function

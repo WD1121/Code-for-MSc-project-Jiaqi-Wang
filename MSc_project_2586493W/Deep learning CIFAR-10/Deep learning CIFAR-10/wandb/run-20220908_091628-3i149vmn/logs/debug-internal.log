@@ -1,0 +1,345 @@
+2022-09-08 09:16:29,638 INFO    MainThread:54204 [internal.py:wandb_internal():90] W&B internal server running at pid: 54204, started at: 2022-09-08 09:16:29.637383
+2022-09-08 09:16:29,639 INFO    WriterThread:54204 [datastore.py:open_for_write():75] open: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\run-3i149vmn.wandb
+2022-09-08 09:16:29,643 DEBUG   SenderThread:54204 [sender.py:send():236] send: header
+2022-09-08 09:16:29,643 DEBUG   SenderThread:54204 [sender.py:send():236] send: run
+2022-09-08 09:16:29,860 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: check_version
+2022-09-08 09:16:29,867 INFO    SenderThread:54204 [dir_watcher.py:__init__():216] watching files in: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files
+2022-09-08 09:16:29,867 INFO    SenderThread:54204 [sender.py:_start_run_threads():815] run started: 3i149vmn with start time 1662624988
+2022-09-08 09:16:29,867 DEBUG   SenderThread:54204 [sender.py:send():236] send: summary
+2022-09-08 09:16:29,867 INFO    SenderThread:54204 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-09-08 09:16:29,868 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: check_version
+2022-09-08 09:16:29,941 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: run_start
+2022-09-08 09:16:29,970 DEBUG   HandlerThread:54204 [meta.py:__init__():35] meta init
+2022-09-08 09:16:29,970 DEBUG   HandlerThread:54204 [meta.py:__init__():49] meta init done
+2022-09-08 09:16:29,970 DEBUG   HandlerThread:54204 [meta.py:probe():209] probe
+2022-09-08 09:16:30,058 DEBUG   HandlerThread:54204 [git.py:repo():29] git repository is invalid
+2022-09-08 09:16:30,058 DEBUG   HandlerThread:54204 [meta.py:_save_pip():53] save pip
+2022-09-08 09:16:30,059 DEBUG   HandlerThread:54204 [meta.py:_save_pip():67] save pip done
+2022-09-08 09:16:30,059 DEBUG   HandlerThread:54204 [meta.py:_save_conda():74] save conda
+2022-09-08 09:16:30,881 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\conda-environment.yaml
+2022-09-08 09:16:30,882 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\wandb-summary.json
+2022-09-08 09:16:30,882 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\requirements.txt
+2022-09-08 09:16:33,753 DEBUG   HandlerThread:54204 [meta.py:_save_conda():84] save conda done
+2022-09-08 09:16:33,753 DEBUG   HandlerThread:54204 [meta.py:probe():247] probe done
+2022-09-08 09:16:33,823 DEBUG   SenderThread:54204 [sender.py:send():236] send: files
+2022-09-08 09:16:33,824 INFO    SenderThread:54204 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2022-09-08 09:16:33,831 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:16:33,831 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:16:33,899 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\conda-environment.yaml
+2022-09-08 09:16:33,899 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\wandb-metadata.json
+2022-09-08 09:16:33,900 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:16:34,021 DEBUG   SenderThread:54204 [sender.py:send():236] send: telemetry
+2022-09-08 09:16:34,420 INFO    Thread-15 :54204 [upload_job.py:push():138] Uploaded file C:\Users\12137\AppData\Local\Temp\tmpnrcmx1ftwandb\sto8oimf-wandb-metadata.json
+2022-09-08 09:16:36,923 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:16:49,034 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:16:49,034 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:16:58,983 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:17:01,013 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\config.yaml
+2022-09-08 09:17:01,014 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:17:02,585 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:17:03,031 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:17:04,224 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:17:04,226 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:17:05,037 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:17:07,067 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:17:09,089 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:17:11,104 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:17:13,108 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:17:15,132 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:17:17,149 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:17:19,410 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:17:19,410 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:17:28,566 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: partial_history
+2022-09-08 09:17:28,572 DEBUG   SenderThread:54204 [sender.py:send():236] send: history
+2022-09-08 09:17:28,573 DEBUG   SenderThread:54204 [sender.py:send():236] send: summary
+2022-09-08 09:17:28,575 INFO    SenderThread:54204 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-09-08 09:17:29,261 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\wandb-summary.json
+2022-09-08 09:17:31,281 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:17:34,626 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:17:34,626 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:17:36,920 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:17:41,385 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:17:43,390 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:17:45,397 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:17:47,405 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:17:49,412 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:17:49,839 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:17:49,839 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:17:51,438 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:17:53,449 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:17:55,468 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:17:57,477 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:17:59,494 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:18:05,034 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:18:05,034 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:18:07,761 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: partial_history
+2022-09-08 09:18:07,761 DEBUG   SenderThread:54204 [sender.py:send():236] send: history
+2022-09-08 09:18:07,761 DEBUG   SenderThread:54204 [sender.py:send():236] send: summary
+2022-09-08 09:18:07,763 INFO    SenderThread:54204 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-09-08 09:18:08,564 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\wandb-summary.json
+2022-09-08 09:18:09,578 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:18:11,071 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:18:19,678 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:18:20,220 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:18:20,220 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:18:21,695 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:18:22,698 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:18:24,705 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:18:26,733 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:18:28,741 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:18:30,764 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:18:32,769 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:18:34,782 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:18:35,419 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:18:35,419 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:18:36,788 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:18:45,326 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: partial_history
+2022-09-08 09:18:45,326 DEBUG   SenderThread:54204 [sender.py:send():236] send: history
+2022-09-08 09:18:45,327 DEBUG   SenderThread:54204 [sender.py:send():236] send: summary
+2022-09-08 09:18:45,358 INFO    SenderThread:54204 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-09-08 09:18:45,359 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:18:45,857 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\wandb-summary.json
+2022-09-08 09:18:46,862 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:18:50,628 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:18:50,628 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:18:56,984 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:18:59,011 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:19:01,037 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:19:03,043 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:19:05,049 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:19:05,828 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:19:05,842 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:19:07,069 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:19:09,075 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:19:11,089 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:19:13,109 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:19:15,134 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:19:19,533 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:19:21,038 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:19:21,038 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:19:23,743 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: partial_history
+2022-09-08 09:19:23,744 DEBUG   SenderThread:54204 [sender.py:send():236] send: history
+2022-09-08 09:19:23,744 DEBUG   SenderThread:54204 [sender.py:send():236] send: summary
+2022-09-08 09:19:23,745 INFO    SenderThread:54204 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-09-08 09:19:24,181 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\wandb-summary.json
+2022-09-08 09:19:25,187 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:19:33,232 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:19:35,241 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:19:36,369 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:19:36,369 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:19:37,254 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:19:39,264 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:19:41,280 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:19:43,317 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:19:45,334 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:19:47,342 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:19:49,364 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:19:51,413 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:19:51,573 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:19:51,573 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:19:53,421 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:19:53,736 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:20:00,571 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: partial_history
+2022-09-08 09:20:00,591 DEBUG   SenderThread:54204 [sender.py:send():236] send: history
+2022-09-08 09:20:00,591 DEBUG   SenderThread:54204 [sender.py:send():236] send: summary
+2022-09-08 09:20:00,592 INFO    SenderThread:54204 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-09-08 09:20:01,488 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\wandb-summary.json
+2022-09-08 09:20:03,503 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:20:06,756 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:20:06,756 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:20:11,549 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:20:13,563 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:20:15,566 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:20:17,569 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:20:19,578 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:20:21,590 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:20:21,939 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:20:21,940 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:20:23,609 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:20:25,643 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:20:27,646 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:20:27,984 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:20:29,665 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:20:31,684 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:20:37,147 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:20:37,149 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:20:38,791 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: partial_history
+2022-09-08 09:20:38,792 DEBUG   SenderThread:54204 [sender.py:send():236] send: history
+2022-09-08 09:20:38,792 DEBUG   SenderThread:54204 [sender.py:send():236] send: summary
+2022-09-08 09:20:38,793 INFO    SenderThread:54204 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-09-08 09:20:39,781 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\wandb-summary.json
+2022-09-08 09:20:41,795 INFO    Thread-11 :54204 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\12137\Desktop\source code\Deep learning cifar10备份\Deep learning CIFAR-10\wandb\run-20220908_091628-3i149vmn\files\output.log
+2022-09-08 09:20:52,328 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:20:52,328 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:21:02,155 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:21:07,533 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:21:07,533 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:21:23,330 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:21:23,330 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:21:36,385 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:21:38,539 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:21:38,539 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:21:53,752 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:21:53,752 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:22:08,957 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:22:08,958 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:22:10,543 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:22:24,148 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:22:24,148 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:22:39,359 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:22:39,359 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:22:44,771 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:22:54,574 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:22:54,574 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:23:09,773 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:23:09,773 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:23:19,433 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:23:24,991 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:23:24,992 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:23:40,196 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:23:40,196 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:23:53,638 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:23:55,390 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:23:55,390 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:24:10,595 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:24:10,595 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:24:25,822 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:24:25,822 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:24:27,748 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:24:41,042 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:24:41,042 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:24:59,429 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:24:59,429 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:25:01,906 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:25:14,658 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:25:14,658 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:25:29,853 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:25:29,853 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:25:36,063 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:25:45,053 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:25:45,053 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:26:00,248 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:26:00,248 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:26:10,261 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:26:15,444 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:26:15,444 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:26:30,651 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:26:30,651 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:26:44,416 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:26:45,846 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:26:45,846 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:27:01,069 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:27:01,069 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:27:16,254 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:27:16,254 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:27:18,698 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:27:31,466 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:27:31,466 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:27:46,651 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:27:46,651 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:27:52,833 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:28:01,852 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:28:01,852 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:28:17,127 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:28:17,127 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:28:26,877 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:28:32,331 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:28:32,331 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:28:47,529 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:28:47,529 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:29:00,993 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:29:02,731 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:29:02,732 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:29:17,920 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:29:17,920 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:29:33,176 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:29:33,176 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:29:35,669 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:29:48,640 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:29:48,640 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:30:03,840 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:30:03,840 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:30:09,734 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:30:09,871 ERROR   FileStreamThread:54204 [file_stream.py:_thread_except_body():422] generic exception in filestream thread
+Traceback (most recent call last):
+  File "C:\Users\12137\Anaconda3\envs\pytorch\lib\site-packages\wandb\sdk\internal\file_stream.py", line 418, in _thread_except_body
+    self._thread_body()
+  File "C:\Users\12137\Anaconda3\envs\pytorch\lib\site-packages\wandb\sdk\internal\file_stream.py", line 374, in _thread_body
+    success = self._send(ready_chunks, uploaded=uploaded)
+  File "C:\Users\12137\Anaconda3\envs\pytorch\lib\site-packages\wandb\sdk\internal\file_stream.py", line 461, in _send
+    self._handle_response(
+  File "C:\Users\12137\Anaconda3\envs\pytorch\lib\site-packages\wandb\sdk\internal\file_stream.py", line 429, in _handle_response
+    wandb.termerror(
+  File "C:\Users\12137\Anaconda3\envs\pytorch\lib\site-packages\wandb\errors\term.py", line 62, in termerror
+    _log(
+  File "C:\Users\12137\Anaconda3\envs\pytorch\lib\site-packages\wandb\errors\term.py", line 96, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "C:\Users\12137\Anaconda3\envs\pytorch\lib\site-packages\click\utils.py", line 299, in echo
+    file.write(out)  # type: ignore
+OSError: [Errno 22] Invalid argument
+2022-09-08 09:30:19,033 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:30:19,033 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:30:34,233 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:30:34,233 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:30:43,806 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:30:49,446 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:30:49,446 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:31:04,648 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:31:04,648 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:31:17,972 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:31:19,931 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:31:19,931 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:31:35,128 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:31:35,128 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:31:50,345 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:31:50,345 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:31:52,245 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:32:05,595 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:32:05,595 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:32:20,802 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:32:20,802 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:32:27,447 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:32:40,827 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:32:40,827 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:32:56,025 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:32:56,025 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:33:00,606 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:33:11,204 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:33:11,204 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:33:26,444 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:33:26,444 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:33:34,860 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:33:41,639 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:33:41,639 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:33:56,933 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:33:56,933 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:34:09,006 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:34:12,125 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:34:12,125 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:34:27,326 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:34:27,326 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:34:42,536 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:34:42,536 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:34:43,195 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:34:57,735 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:34:57,735 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:35:12,944 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:35:12,944 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:35:17,403 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:35:28,741 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:35:28,741 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:35:43,982 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:35:43,982 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:35:51,641 DEBUG   SenderThread:54204 [sender.py:send():236] send: stats
+2022-09-08 09:35:59,177 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:35:59,177 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:36:14,374 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:36:14,374 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:36:29,615 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:36:29,615 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:36:44,809 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:36:44,809 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:37:00,001 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:37:00,002 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status
+2022-09-08 09:37:15,190 DEBUG   HandlerThread:54204 [handler.py:handle_request():140] handle_request: stop_status
+2022-09-08 09:37:15,190 DEBUG   SenderThread:54204 [sender.py:send_request():250] send_request: stop_status

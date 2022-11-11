@@ -1,0 +1,21 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.8.8",
+    "heartbeatAt": "2022-09-01T00:54:51.868177",
+    "startedAt": "2022-09-01T00:54:44.872978",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "-c",
+        "./utils/conf.json"
+    ],
+    "state": "running",
+    "program": "main.py",
+    "codePath": "main.py",
+    "host": "LAPTOP-JR3FQLCI",
+    "username": "12137",
+    "executable": "C:\\Users\\12137\\Anaconda3\\envs\\pytorch\\python.exe"
+}

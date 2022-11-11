@@ -1,0 +1,848 @@
+2022-09-01 07:42:05,348 INFO    MainThread:42168 [wandb_setup.py:_flush():76] Configure stats pid to 42168
+2022-09-01 07:42:05,349 INFO    MainThread:42168 [wandb_setup.py:_flush():76] Loading settings from C:\Users\12137\.config\wandb\settings
+2022-09-01 07:42:05,349 INFO    MainThread:42168 [wandb_setup.py:_flush():76] Loading settings from C:\Users\12137\Desktop\硕士毕业论文\论文！！!\FL_image_classification\wandb\settings
+2022-09-01 07:42:05,349 INFO    MainThread:42168 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-09-01 07:42:05,349 INFO    MainThread:42168 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'main.py'}
+2022-09-01 07:42:05,350 INFO    MainThread:42168 [wandb_init.py:_log_setup():461] Logging user logs to C:\Users\12137\Desktop\硕士毕业论文\论文！！!\FL_image_classification\wandb\run-20220901_074205-3f6lldfx\logs\debug.log
+2022-09-01 07:42:05,350 INFO    MainThread:42168 [wandb_init.py:_log_setup():462] Logging internal logs to C:\Users\12137\Desktop\硕士毕业论文\论文！！!\FL_image_classification\wandb\run-20220901_074205-3f6lldfx\logs\debug-internal.log
+2022-09-01 07:42:05,350 INFO    MainThread:42168 [wandb_init.py:init():495] calling init triggers
+2022-09-01 07:42:05,350 INFO    MainThread:42168 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-09-01 07:42:05,350 INFO    MainThread:42168 [wandb_init.py:init():548] starting backend
+2022-09-01 07:42:05,350 INFO    MainThread:42168 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2022-09-01 07:42:05,355 INFO    MainThread:42168 [backend.py:ensure_launched():217] starting backend process...
+2022-09-01 07:42:05,426 INFO    MainThread:42168 [backend.py:ensure_launched():222] started backend process with pid: 56668
+2022-09-01 07:42:05,427 INFO    MainThread:42168 [wandb_init.py:init():558] backend started and connected
+2022-09-01 07:42:05,428 INFO    MainThread:42168 [wandb_init.py:init():634] updated telemetry
+2022-09-01 07:42:05,433 INFO    MainThread:42168 [wandb_init.py:init():665] communicating run to backend with 30 second timeout
+2022-09-01 07:42:07,018 INFO    MainThread:42168 [wandb_run.py:_on_init():1919] communicating current version
+2022-09-01 07:42:07,148 INFO    MainThread:42168 [wandb_run.py:_on_init():1923] got version response upgrade_message: "wandb version 0.13.2 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-09-01 07:42:07,149 INFO    MainThread:42168 [wandb_init.py:init():700] starting run threads in backend
+2022-09-01 07:42:12,171 INFO    MainThread:42168 [wandb_run.py:_console_start():1893] atexit reg
+2022-09-01 07:42:12,172 INFO    MainThread:42168 [wandb_run.py:_redirect():1766] redirect: SettingsConsole.WRAP
+2022-09-01 07:42:12,172 INFO    MainThread:42168 [wandb_run.py:_redirect():1803] Wrapping output streams.
+2022-09-01 07:42:12,173 INFO    MainThread:42168 [wandb_run.py:_redirect():1827] Redirects installed.
+2022-09-01 07:42:12,174 INFO    MainThread:42168 [wandb_init.py:init():732] run started, returning control to user process
+2022-09-01 07:43:17,027 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:43:17,027 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 07:43:17,027 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:43:17,027 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 07:43:17,028 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:43:17,028 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 07:43:17,028 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:43:17,028 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 07:43:17,028 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:43:17,028 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 07:43:17,028 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:43:17,028 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 07:43:17,029 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:43:17,029 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 07:44:10,203 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:44:10,203 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 07:44:10,204 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:44:10,204 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 07:44:10,204 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:44:10,204 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 07:44:10,204 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:44:10,204 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 07:44:10,204 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:44:10,205 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 07:44:10,205 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:44:10,205 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 07:44:10,205 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:44:10,205 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 07:45:03,581 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:45:03,581 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 07:45:03,581 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:45:03,581 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 07:45:03,581 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:45:03,581 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 07:45:03,582 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:45:03,582 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 07:45:03,582 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:45:03,582 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 07:45:03,582 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:45:03,582 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 07:45:03,583 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:45:03,583 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 07:45:57,101 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:45:57,101 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 07:45:57,101 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:45:57,101 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 07:45:57,101 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:45:57,101 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 07:45:57,102 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:45:57,102 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 07:45:57,102 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:45:57,102 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 07:45:57,102 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:45:57,102 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 07:45:57,102 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:45:57,102 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 07:46:51,127 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:46:51,127 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 07:46:51,127 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:46:51,127 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 07:46:51,128 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:46:51,128 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 07:46:51,128 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:46:51,128 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 07:46:51,128 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:46:51,128 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 07:46:51,128 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:46:51,128 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 07:46:51,128 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:46:51,129 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 07:47:45,190 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:47:45,190 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 07:47:45,190 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:47:45,190 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 07:47:45,190 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:47:45,190 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 07:47:45,191 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:47:45,191 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 07:47:45,191 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:47:45,191 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 07:47:45,191 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:47:45,191 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 07:47:45,191 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:47:45,191 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 07:48:38,606 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:48:38,606 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 07:48:38,606 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:48:38,606 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 07:48:38,607 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:48:38,607 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 07:48:38,607 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:48:38,607 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 07:48:38,607 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:48:38,607 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 07:48:38,607 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:48:38,607 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 07:48:38,607 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:48:38,608 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 07:49:32,055 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:49:32,055 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 07:49:32,055 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:49:32,055 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 07:49:32,055 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:49:32,055 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 07:49:32,055 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:49:32,056 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 07:49:32,056 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:49:32,056 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 07:49:32,056 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:49:32,056 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 07:49:32,056 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:49:32,056 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 07:50:25,774 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:50:25,775 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 07:50:25,775 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:50:25,775 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 07:50:25,775 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:50:25,776 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 07:50:25,776 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:50:25,776 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 07:50:25,776 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:50:25,776 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 07:50:25,776 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:50:25,776 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 07:50:25,776 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:50:25,776 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 07:51:19,259 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:51:19,259 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 07:51:19,260 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:51:19,260 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 07:51:19,260 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:51:19,260 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 07:51:19,260 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:51:19,260 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 07:51:19,260 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:51:19,260 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 07:51:19,261 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:51:19,261 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 07:51:19,261 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:51:19,261 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 07:52:12,511 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:52:12,511 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 07:52:12,511 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:52:12,512 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 07:52:12,512 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:52:12,512 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 07:52:12,512 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:52:12,512 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 07:52:12,512 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:52:12,512 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 07:52:12,512 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:52:12,512 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 07:52:12,513 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:52:12,513 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 07:53:05,954 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:53:05,954 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 07:53:05,954 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:53:05,954 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 07:53:05,954 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:53:05,954 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 07:53:05,955 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:53:05,955 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 07:53:05,955 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:53:05,955 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 07:53:05,956 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:53:05,956 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 07:53:05,956 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:53:05,956 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 07:53:59,655 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:53:59,655 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 07:53:59,655 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:53:59,655 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 07:53:59,656 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:53:59,656 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 07:53:59,657 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:53:59,657 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 07:53:59,657 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:53:59,657 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 07:53:59,657 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:53:59,657 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 07:53:59,657 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:53:59,657 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 07:54:53,322 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:54:53,322 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 07:54:53,323 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:54:53,323 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 07:54:53,323 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:54:53,323 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 07:54:53,323 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:54:53,323 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 07:54:53,323 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:54:53,324 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 07:54:53,324 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:54:53,324 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 07:54:53,324 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:54:53,324 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 07:55:46,911 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:55:46,911 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 07:55:46,911 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:55:46,912 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 07:55:46,912 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:55:46,912 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 07:55:46,912 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:55:46,912 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 07:55:46,912 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:55:46,912 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 07:55:46,912 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:55:46,913 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 07:55:46,913 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:55:46,913 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 07:56:40,549 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:56:40,549 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 07:56:40,549 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:56:40,549 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 07:56:40,549 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:56:40,549 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 07:56:40,549 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:56:40,550 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 07:56:40,550 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:56:40,550 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 07:56:40,550 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:56:40,550 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 07:56:40,550 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:56:40,550 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 07:57:34,353 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:57:34,353 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 07:57:34,353 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:57:34,353 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 07:57:34,353 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:57:34,353 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 07:57:34,354 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:57:34,354 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 07:57:34,354 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:57:34,354 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 07:57:34,354 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:57:34,354 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 07:57:34,354 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:57:34,354 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 07:58:28,030 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:58:28,030 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 07:58:28,030 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:58:28,031 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 07:58:28,031 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:58:28,031 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 07:58:28,031 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:58:28,031 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 07:58:28,032 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:58:28,032 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 07:58:28,032 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:58:28,032 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 07:58:28,032 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:58:28,032 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 07:59:21,649 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:59:21,649 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 07:59:21,650 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:59:21,650 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 07:59:21,650 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:59:21,650 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 07:59:21,650 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:59:21,650 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 07:59:21,650 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:59:21,650 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 07:59:21,651 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:59:21,651 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 07:59:21,651 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 07:59:21,651 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:00:15,754 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:00:15,754 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:00:15,755 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:00:15,755 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:00:15,755 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:00:15,755 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:00:15,755 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:00:15,755 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:00:15,755 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:00:15,755 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:00:15,756 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:00:15,756 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:00:15,756 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:00:15,756 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:01:09,392 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:01:09,392 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:01:09,392 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:01:09,392 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:01:09,392 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:01:09,393 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:01:09,393 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:01:09,393 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:01:09,393 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:01:09,393 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:01:09,393 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:01:09,393 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:01:09,393 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:01:09,393 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:02:03,156 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:02:03,156 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:02:03,156 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:02:03,157 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:02:03,157 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:02:03,157 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:02:03,157 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:02:03,157 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:02:03,157 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:02:03,157 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:02:03,157 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:02:03,158 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:02:03,158 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:02:03,158 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:02:57,031 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:02:57,031 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:02:57,031 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:02:57,032 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:02:57,032 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:02:57,032 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:02:57,032 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:02:57,033 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:02:57,033 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:02:57,033 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:02:57,033 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:02:57,033 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:02:57,033 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:02:57,033 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:03:50,533 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:03:50,533 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:03:50,533 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:03:50,534 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:03:50,534 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:03:50,534 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:03:50,534 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:03:50,534 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:03:50,534 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:03:50,535 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:03:50,535 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:03:50,535 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:03:50,535 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:03:50,535 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:04:44,283 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:04:44,283 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:04:44,283 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:04:44,283 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:04:44,283 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:04:44,284 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:04:44,284 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:04:44,284 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:04:44,284 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:04:44,284 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:04:44,284 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:04:44,284 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:04:44,284 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:04:44,284 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:05:38,130 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:05:38,130 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:05:38,130 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:05:38,131 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:05:38,131 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:05:38,131 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:05:38,131 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:05:38,131 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:05:38,131 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:05:38,131 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:05:38,131 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:05:38,132 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:05:38,132 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:05:38,132 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:06:31,816 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:06:31,816 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:06:31,816 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:06:31,816 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:06:31,816 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:06:31,817 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:06:31,817 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:06:31,817 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:06:31,817 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:06:31,817 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:06:31,817 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:06:31,817 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:06:31,818 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:06:31,818 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:07:25,734 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:07:25,735 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:07:25,735 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:07:25,735 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:07:25,735 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:07:25,735 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:07:25,735 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:07:25,735 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:07:25,735 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:07:25,736 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:07:25,736 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:07:25,736 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:07:25,736 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:07:25,736 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:08:19,537 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:08:19,538 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:08:19,538 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:08:19,538 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:08:19,538 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:08:19,538 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:08:19,538 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:08:19,539 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:08:19,539 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:08:19,539 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:08:19,539 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:08:19,539 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:08:19,539 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:08:19,539 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:09:13,180 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:09:13,181 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:09:13,181 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:09:13,181 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:09:13,181 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:09:13,181 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:09:13,181 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:09:13,181 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:09:13,182 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:09:13,182 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:09:13,182 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:09:13,182 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:09:13,182 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:09:13,182 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:10:07,025 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:10:07,025 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:10:07,025 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:10:07,025 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:10:07,026 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:10:07,026 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:10:07,026 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:10:07,026 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:10:07,026 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:10:07,026 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:10:07,026 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:10:07,026 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:10:07,027 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:10:07,027 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:11:00,905 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:11:00,905 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:11:00,905 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:11:00,905 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:11:00,906 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:11:00,906 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:11:00,906 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:11:00,907 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:11:00,907 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:11:00,907 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:11:00,907 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:11:00,907 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:11:00,907 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:11:00,908 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:11:54,917 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:11:54,917 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:11:54,917 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:11:54,917 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:11:54,917 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:11:54,918 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:11:54,918 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:11:54,918 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:11:54,918 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:11:54,918 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:11:54,918 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:11:54,918 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:11:54,918 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:11:54,918 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:12:48,846 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:12:48,846 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:12:48,847 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:12:48,847 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:12:48,847 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:12:48,847 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:12:48,848 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:12:48,848 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:12:48,848 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:12:48,848 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:12:48,848 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:12:48,849 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:12:48,849 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:12:48,849 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:13:42,764 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:13:42,764 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:13:42,764 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:13:42,765 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:13:42,765 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:13:42,765 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:13:42,765 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:13:42,765 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:13:42,765 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:13:42,765 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:13:42,765 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:13:42,766 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:13:42,766 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:13:42,766 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:14:36,443 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:14:36,443 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:14:36,443 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:14:36,443 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:14:36,444 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:14:36,444 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:14:36,444 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:14:36,444 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:14:36,444 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:14:36,444 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:14:36,444 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:14:36,444 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:14:36,445 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:14:36,445 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:15:30,089 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:15:30,089 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:15:30,089 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:15:30,089 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:15:30,090 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:15:30,090 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:15:30,090 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:15:30,090 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:15:30,090 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:15:30,090 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:15:30,090 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:15:30,090 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:15:30,090 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:15:30,090 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:16:23,808 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:16:23,808 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:16:23,808 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:16:23,808 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:16:23,808 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:16:23,808 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:16:23,809 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:16:23,809 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:16:23,809 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:16:23,809 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:16:23,809 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:16:23,809 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:16:23,809 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:16:23,809 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:17:17,445 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:17:17,445 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:17:17,445 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:17:17,445 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:17:17,445 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:17:17,445 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:17:17,445 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:17:17,445 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:17:17,446 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:17:17,446 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:17:17,446 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:17:17,446 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:17:17,446 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:17:17,446 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:18:11,249 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:18:11,249 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:18:11,249 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:18:11,249 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:18:11,249 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:18:11,249 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:18:11,250 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:18:11,250 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:18:11,250 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:18:11,250 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:18:11,250 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:18:11,250 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:18:11,250 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:18:11,250 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:19:05,144 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:19:05,144 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:19:05,144 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:19:05,144 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:19:05,144 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:19:05,144 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:19:05,145 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:19:05,145 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:19:05,145 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:19:05,145 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:19:05,145 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:19:05,145 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:19:05,145 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:19:05,145 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:19:59,134 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:19:59,134 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:19:59,134 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:19:59,135 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:19:59,135 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:19:59,135 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:19:59,135 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:19:59,135 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:19:59,135 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:19:59,135 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:19:59,136 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:19:59,136 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:19:59,136 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:19:59,136 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:20:52,984 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:20:52,985 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:20:52,985 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:20:52,985 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:20:52,985 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:20:52,985 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:20:52,985 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:20:52,986 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:20:52,986 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:20:52,986 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:20:52,986 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:20:52,986 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:20:52,986 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:20:52,986 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:21:46,812 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:21:46,812 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:21:46,812 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:21:46,813 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:21:46,813 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:21:46,813 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:21:46,813 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:21:46,813 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:21:46,813 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:21:46,813 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:21:46,813 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:21:46,813 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:21:46,814 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:21:46,814 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:22:40,423 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:22:40,423 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:22:40,423 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:22:40,424 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:22:40,424 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:22:40,424 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:22:40,424 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:22:40,424 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:22:40,424 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:22:40,424 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:22:40,424 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:22:40,424 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:22:40,425 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:22:40,425 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:23:33,882 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:23:33,882 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:23:33,882 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:23:33,882 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:23:33,883 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:23:33,883 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:23:33,883 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:23:33,883 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:23:33,883 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:23:33,883 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:23:33,883 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:23:33,883 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:23:33,883 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:23:33,884 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:24:27,501 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:24:27,502 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:24:27,502 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:24:27,502 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:24:27,502 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:24:27,502 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:24:27,502 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:24:27,502 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:24:27,502 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:24:27,502 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:24:27,503 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:24:27,503 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:24:27,503 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:24:27,503 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:25:21,158 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:25:21,158 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:25:21,158 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:25:21,158 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:25:21,158 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:25:21,158 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:25:21,158 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:25:21,159 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:25:21,159 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:25:21,159 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:25:21,159 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:25:21,159 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:25:21,159 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:25:21,159 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:26:14,808 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:26:14,808 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:26:14,808 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:26:14,808 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:26:14,809 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:26:14,809 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:26:14,809 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:26:14,809 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:26:14,809 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:26:14,809 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:26:14,809 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:26:14,809 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:26:14,809 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:26:14,809 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:27:08,660 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set n_client = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:27:08,660 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb n_client 50 None
+2022-09-01 08:27:08,660 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set chosen_client = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:27:08,661 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb chosen_client 5 None
+2022-09-01 08:27:08,661 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set global_epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:27:08,661 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb global_epochs 50 None
+2022-09-01 08:27:08,661 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set local_epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:27:08,661 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb local_epochs 10 None
+2022-09-01 08:27:08,661 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set batch_size = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:27:08,661 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb batch_size 32 None
+2022-09-01 08:27:08,661 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set lr = 0.01 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:27:08,662 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb lr 0.01 None
+2022-09-01 08:27:08,662 INFO    MainThread:42168 [wandb_config.py:__setitem__():150] config set momentum = 0.9 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001FC0DC2D610>>
+2022-09-01 08:27:08,662 INFO    MainThread:42168 [wandb_run.py:_config_callback():1131] config_cb momentum 0.9 None
+2022-09-01 08:27:08,663 INFO    MainThread:42168 [wandb_run.py:_atexit_cleanup():1862] got exitcode: 0
+2022-09-01 08:27:08,666 INFO    MainThread:42168 [wandb_run.py:_restore():1834] restore
+2022-09-01 08:27:08,793 INFO    MainThread:42168 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 582
+  total_bytes: 582
+}
+
+2022-09-01 08:27:09,106 INFO    MainThread:42168 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 582
+  total_bytes: 582
+}
+
+2022-09-01 08:27:09,219 INFO    MainThread:42168 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 582
+  total_bytes: 100022
+}
+
+2022-09-01 08:27:09,326 INFO    MainThread:42168 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 582
+  total_bytes: 100022
+}
+
+2022-09-01 08:27:09,436 INFO    MainThread:42168 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 582
+  total_bytes: 100022
+}
+
+2022-09-01 08:27:09,546 INFO    MainThread:42168 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 100022
+  total_bytes: 100022
+}
+
+2022-09-01 08:27:09,657 INFO    MainThread:42168 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 100022
+  total_bytes: 100022
+}
+
+2022-09-01 08:27:09,768 INFO    MainThread:42168 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 100022
+  total_bytes: 100022
+}
+
+2022-09-01 08:27:09,877 INFO    MainThread:42168 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 100022
+  total_bytes: 100022
+}
+
+2022-09-01 08:27:09,988 INFO    MainThread:42168 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 100022
+  total_bytes: 100022
+}
+
+2022-09-01 08:27:10,098 INFO    MainThread:42168 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 100022
+  total_bytes: 100022
+}
+
+2022-09-01 08:27:10,211 INFO    MainThread:42168 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 100022
+  total_bytes: 100022
+}
+
+2022-09-01 08:27:10,641 INFO    MainThread:42168 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 100022
+  total_bytes: 100022
+}
+
+2022-09-01 08:27:11,157 INFO    MainThread:42168 [wandb_run.py:_on_finish():1991] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+}
+pusher_stats {
+  uploaded_bytes: 100022
+  total_bytes: 100022
+}
+local_info {
+}
+
+2022-09-01 08:27:12,393 INFO    MainThread:42168 [wandb_run.py:_footer_history_summary_info():3099] rendering history
+2022-09-01 08:27:12,394 INFO    MainThread:42168 [wandb_run.py:_footer_history_summary_info():3131] rendering summary
+2022-09-01 08:27:12,401 INFO    MainThread:42168 [wandb_run.py:_footer_sync_info():3055] logging synced files

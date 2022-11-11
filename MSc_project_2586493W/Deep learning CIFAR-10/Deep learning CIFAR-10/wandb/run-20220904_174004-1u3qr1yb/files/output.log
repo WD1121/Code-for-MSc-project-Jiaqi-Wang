@@ -1,0 +1,10 @@
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+==> Building model..
+Traceback (most recent call last):
+  File "C:/Users/12137/Desktop/硕士毕业论文/论文！！!/Deep learning cifar10/Deep learning CIFAR-10/pytorch_cifar10_main.py", line 157, in <module>
+    model = ResNet18().to(device)
+  File "C:\Users\12137\Desktop\硕士毕业论文\论文！！!\Deep learning cifar10\Deep learning CIFAR-10\models\ResNet.py", line 92, in ResNet18
+    return ResNet18(BasicBlock)
+TypeError: ResNet18() takes 0 positional arguments but 1 was given

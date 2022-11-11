@@ -1,0 +1,45 @@
+2022-09-04 16:09:43,510 INFO    MainThread:74184 [wandb_setup.py:_flush():76] Configure stats pid to 74184
+2022-09-04 16:09:43,510 INFO    MainThread:74184 [wandb_setup.py:_flush():76] Loading settings from C:\Users\12137\.config\wandb\settings
+2022-09-04 16:09:43,510 INFO    MainThread:74184 [wandb_setup.py:_flush():76] Loading settings from C:\Users\12137\Desktop\硕士毕业论文\论文！！!\Deep learning cifar10\Deep learning CIFAR-10\wandb\settings
+2022-09-04 16:09:43,510 INFO    MainThread:74184 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-09-04 16:09:43,510 INFO    MainThread:74184 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-09-04 16:09:43,510 INFO    MainThread:74184 [wandb_init.py:_log_setup():461] Logging user logs to C:\Users\12137\Desktop\硕士毕业论文\论文！！!\Deep learning cifar10\Deep learning CIFAR-10\wandb\run-20220904_160943-13zyocct\logs\debug.log
+2022-09-04 16:09:43,511 INFO    MainThread:74184 [wandb_init.py:_log_setup():462] Logging internal logs to C:\Users\12137\Desktop\硕士毕业论文\论文！！!\Deep learning cifar10\Deep learning CIFAR-10\wandb\run-20220904_160943-13zyocct\logs\debug-internal.log
+2022-09-04 16:09:43,511 INFO    MainThread:74184 [wandb_init.py:init():495] calling init triggers
+2022-09-04 16:09:43,511 INFO    MainThread:74184 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-09-04 16:09:43,511 INFO    MainThread:74184 [wandb_init.py:init():548] starting backend
+2022-09-04 16:09:43,511 INFO    MainThread:74184 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2022-09-04 16:09:43,518 INFO    MainThread:74184 [backend.py:ensure_launched():217] starting backend process...
+2022-09-04 16:09:43,527 ERROR   MainThread:74184 [wandb_init.py:init():1070] error
+Traceback (most recent call last):
+  File "C:\Users\12137\Anaconda3\envs\pytorch\lib\site-packages\wandb\sdk\wandb_init.py", line 1043, in init
+    run = wi.init()
+  File "C:\Users\12137\Anaconda3\envs\pytorch\lib\site-packages\wandb\sdk\wandb_init.py", line 556, in init
+    backend.ensure_launched()
+  File "C:\Users\12137\Anaconda3\envs\pytorch\lib\site-packages\wandb\sdk\backend\backend.py", line 220, in ensure_launched
+    self.wandb_process.start()
+  File "C:\Users\12137\Anaconda3\envs\pytorch\lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "C:\Users\12137\Anaconda3\envs\pytorch\lib\multiprocessing\context.py", line 327, in _Popen
+    return Popen(process_obj)
+  File "C:\Users\12137\Anaconda3\envs\pytorch\lib\multiprocessing\popen_spawn_win32.py", line 45, in __init__
+    prep_data = spawn.get_preparation_data(process_obj._name)
+  File "C:\Users\12137\Anaconda3\envs\pytorch\lib\multiprocessing\spawn.py", line 154, in get_preparation_data
+    _check_not_importing_main()
+  File "C:\Users\12137\Anaconda3\envs\pytorch\lib\multiprocessing\spawn.py", line 134, in _check_not_importing_main
+    raise RuntimeError('''
+RuntimeError: 
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.

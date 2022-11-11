@@ -1,0 +1,8 @@
+
+Files already downloaded and verified
+Traceback (most recent call last):
+  File "main.py", line 40, in <module>
+    diff = c.local_train(server.global_model)  # Perform local training and calculate the difference dictionary
+  File "C:\Users\12137\Desktop\硕士毕业论文\论文！！!\FL_image_classification\client.py", line 34, in local_train
+    optimizer = torch.optim.Adam(self.local_model.parameters(), lr=self.conf['lr'],
+TypeError: __init__() got an unexpected keyword argument 'momentum'
